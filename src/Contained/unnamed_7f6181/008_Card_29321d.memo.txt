@@ -1,0 +1,1 @@
+{"locations":{"Police Station":{"dooms":1}},"name":"FfU","neighborhood":"Easttown","number":8,"type":"Event"}

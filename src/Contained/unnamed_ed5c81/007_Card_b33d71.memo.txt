@@ -1,0 +1,1 @@
+{"locations":{"Police Station":{"cardtype":"blessed"}},"neighborhood":"Easttown","type":"encounter"}

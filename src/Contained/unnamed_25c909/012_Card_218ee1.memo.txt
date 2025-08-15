@@ -1,0 +1,1 @@
+{"locations":{"Black Cave":{"dooms":2}},"name":"VoT","neighborhood":"Rivertown","number":12,"type":"Event"}

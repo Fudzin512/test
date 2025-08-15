@@ -1,0 +1,538 @@
+{
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
+  "ColorDiffuse": {
+    "b": 0.71324,
+    "g": 0.71324,
+    "r": 0.71324
+  },
+  "ContainedObjects": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 581425,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5814": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=15PYVa3MXnbFpr41UfRWdRXwEmyNWVIhH",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1o2bU97CJ1CiyUeMvyF4L7EOYnPEY52xl",
+          "NumHeight": 5,
+          "NumWidth": 8,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "efc1e0",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"neighborhood\":\"Uptown\",\"type\":\"encounter\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 8.088,
+        "posY": 2.132,
+        "posZ": -58.746,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 180,
+        "scaleX": 1.5,
+        "scaleY": 1,
+        "scaleZ": 1.5
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 581426,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5814": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=15PYVa3MXnbFpr41UfRWdRXwEmyNWVIhH",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1o2bU97CJ1CiyUeMvyF4L7EOYnPEY52xl",
+          "NumHeight": 5,
+          "NumWidth": 8,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "c89fd0",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"neighborhood\":\"Uptown\",\"type\":\"encounter\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 34.447,
+        "posY": 2.014,
+        "posZ": -61.945,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 180,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 581427,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5814": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=15PYVa3MXnbFpr41UfRWdRXwEmyNWVIhH",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1o2bU97CJ1CiyUeMvyF4L7EOYnPEY52xl",
+          "NumHeight": 5,
+          "NumWidth": 8,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "c9b56a",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"neighborhood\":\"Uptown\",\"type\":\"encounter\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 31.844,
+        "posY": 2.014,
+        "posZ": -65.96,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 180,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 581429,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5814": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=15PYVa3MXnbFpr41UfRWdRXwEmyNWVIhH",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1o2bU97CJ1CiyUeMvyF4L7EOYnPEY52xl",
+          "NumHeight": 5,
+          "NumWidth": 8,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "251969",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"neighborhood\":\"Uptown\",\"type\":\"encounter\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 29.192,
+        "posY": 2.014,
+        "posZ": -66.013,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 180,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 581430,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5814": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=15PYVa3MXnbFpr41UfRWdRXwEmyNWVIhH",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1o2bU97CJ1CiyUeMvyF4L7EOYnPEY52xl",
+          "NumHeight": 5,
+          "NumWidth": 8,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "137e43",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"neighborhood\":\"Uptown\",\"type\":\"encounter\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 25.976,
+        "posY": 2.014,
+        "posZ": -66.093,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 180,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 581428,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5814": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=15PYVa3MXnbFpr41UfRWdRXwEmyNWVIhH",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1o2bU97CJ1CiyUeMvyF4L7EOYnPEY52xl",
+          "NumHeight": 5,
+          "NumWidth": 8,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "f72e8d",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"neighborhood\":\"Uptown\",\"type\":\"encounter\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 31.982,
+        "posY": 2.014,
+        "posZ": -62.063,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 180,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 581431,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5814": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=15PYVa3MXnbFpr41UfRWdRXwEmyNWVIhH",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1o2bU97CJ1CiyUeMvyF4L7EOYnPEY52xl",
+          "NumHeight": 5,
+          "NumWidth": 8,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "6a3efe",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"neighborhood\":\"Uptown\",\"type\":\"encounter\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 29.245,
+        "posY": 2.014,
+        "posZ": -62.031,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 180,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 581424,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5814": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=15PYVa3MXnbFpr41UfRWdRXwEmyNWVIhH",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1o2bU97CJ1CiyUeMvyF4L7EOYnPEY52xl",
+          "NumHeight": 5,
+          "NumWidth": 8,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "e3686e",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"neighborhood\":\"Uptown\",\"type\":\"encounter\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 25.846,
+        "posY": 2.014,
+        "posZ": -61.767,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 180,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0,
+      "XmlUI": ""
+    }
+  ],
+  "CustomDeck": {
+    "5814": {
+      "BackIsHidden": true,
+      "BackURL": "https://drive.google.com/uc?export=view&id=15PYVa3MXnbFpr41UfRWdRXwEmyNWVIhH",
+      "FaceURL": "https://drive.google.com/uc?export=view&id=1o2bU97CJ1CiyUeMvyF4L7EOYnPEY52xl",
+      "NumHeight": 5,
+      "NumWidth": 8,
+      "Type": 0,
+      "UniqueBack": true
+    }
+  },
+  "DeckIDs": [
+    581425,
+    581426,
+    581427,
+    581429,
+    581430,
+    581428,
+    581431,
+    581424
+  ],
+  "Description": "",
+  "DragSelectable": true,
+  "GMNotes": "",
+  "GUID": "5e9c84",
+  "Grid": true,
+  "GridProjection": false,
+  "Hands": false,
+  "HideWhenFaceDown": true,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "MeasureMovement": false,
+  "Name": "Deck",
+  "Nickname": "",
+  "SidewaysCard": false,
+  "Snap": true,
+  "Sticky": true,
+  "Tooltip": true,
+  "Transform": {
+    "posX": 35.753,
+    "posY": 4.094,
+    "posZ": 74.93,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 182,
+    "scaleX": 1.5,
+    "scaleY": 1,
+    "scaleZ": 1.5
+  },
+  "Value": 0
+}

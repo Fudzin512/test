@@ -1,0 +1,1 @@
+{"hp":3,"monstertype":["Ghoul"],"name":"Creeping Ghoul","remnant":true,"type":"Monster"}

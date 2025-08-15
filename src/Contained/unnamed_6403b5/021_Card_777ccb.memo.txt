@@ -1,0 +1,1 @@
+{"locations":{"Hangman's Hill":{"dooms":1}},"name":"VoT","neighborhood":"Uptown","number":21,"type":"Event"}

@@ -1,0 +1,578 @@
+{
+  "CameraStates": [],
+  "ComponentTags": {
+    "labels": [
+      {
+        "displayed": "mythos_token",
+        "normalized": "mythos_token"
+      },
+      {
+        "displayed": "bless_curse",
+        "normalized": "bless_curse"
+      },
+      {
+        "displayed": "neighborhood",
+        "normalized": "neighborhood"
+      },
+      {
+        "displayed": "university",
+        "normalized": "university"
+      },
+      {
+        "displayed": "anomaly",
+        "normalized": "anomaly"
+      },
+      {
+        "displayed": "shore",
+        "normalized": "shore"
+      },
+      {
+        "displayed": "devil_reef",
+        "normalized": "devil_reef"
+      },
+      {
+        "displayed": "high_house",
+        "normalized": "high_house"
+      },
+      {
+        "displayed": "northside",
+        "normalized": "northside"
+      },
+      {
+        "displayed": "rivertown",
+        "normalized": "rivertown"
+      },
+      {
+        "displayed": "easttown",
+        "normalized": "easttown"
+      },
+      {
+        "displayed": "the_streets",
+        "normalized": "the_streets"
+      },
+      {
+        "displayed": "merchant",
+        "normalized": "merchant"
+      },
+      {
+        "displayed": "southside",
+        "normalized": "southside"
+      },
+      {
+        "displayed": "central",
+        "normalized": "central"
+      },
+      {
+        "displayed": "harbor",
+        "normalized": "harbor"
+      },
+      {
+        "displayed": "downtown",
+        "normalized": "downtown"
+      },
+      {
+        "displayed": "uptown",
+        "normalized": "uptown"
+      },
+      {
+        "displayed": "travel",
+        "normalized": "travel"
+      },
+      {
+        "displayed": "village",
+        "normalized": "village"
+      },
+      {
+        "displayed": "spell",
+        "normalized": "spell"
+      },
+      {
+        "displayed": "item",
+        "normalized": "item"
+      },
+      {
+        "displayed": "special",
+        "normalized": "special"
+      },
+      {
+        "displayed": "ally",
+        "normalized": "ally"
+      },
+      {
+        "displayed": "dark_pact",
+        "normalized": "dark_pact"
+      },
+      {
+        "displayed": "dice_down",
+        "normalized": "dice_down"
+      },
+      {
+        "displayed": "dice",
+        "normalized": "dice"
+      },
+      {
+        "displayed": "interact",
+        "normalized": "interact"
+      },
+      {
+        "displayed": "scenario",
+        "normalized": "scenario"
+      },
+      {
+        "displayed": "univer",
+        "normalized": "univer"
+      },
+      {
+        "displayed": "CleanUpHelper_ignore",
+        "normalized": "cleanuphelper_ignore"
+      },
+      {
+        "displayed": "displacement_excluded",
+        "normalized": "displacement_excluded"
+      },
+      {
+        "displayed": "to_delete",
+        "normalized": "to_delete"
+      },
+      {
+        "displayed": "headline",
+        "normalized": "headline"
+      },
+      {
+        "displayed": "spawned_die",
+        "normalized": "spawned_die"
+      },
+      {
+        "displayed": "item_mat",
+        "normalized": "item_mat"
+      },
+      {
+        "displayed": "item_magnet",
+        "normalized": "item_magnet"
+      },
+      {
+        "displayed": "anomaly_snap",
+        "normalized": "anomaly_snap"
+      },
+      {
+        "displayed": "activation_snap",
+        "normalized": "activation_snap"
+      },
+      {
+        "displayed": "doom_scenario",
+        "normalized": "doom_scenario"
+      },
+      {
+        "displayed": "clue_scenario",
+        "normalized": "clue_scenario"
+      },
+      {
+        "displayed": "scenario_mat",
+        "normalized": "scenario_mat"
+      },
+      {
+        "displayed": "monster_mat",
+        "normalized": "monster_mat"
+      },
+      {
+        "displayed": "codex",
+        "normalized": "codex"
+      },
+      {
+        "displayed": "i18n_XML",
+        "normalized": "i18n_xml"
+      }
+    ]
+  },
+  "CustomUIAssets": [
+    {
+      "Name": "scenarioMap1",
+      "Type": 0,
+      "URL": "https://drive.google.com/uc?export=download&id=1GuWoVSYz4KqqXhTvG9ormcOgCJEVGynt"
+    },
+    {
+      "Name": "scenarioMap2",
+      "Type": 0,
+      "URL": "https://drive.google.com/uc?export=download&id=1T018fUKpPY9pQPBxalgu6xIJYUcrUhuI"
+    },
+    {
+      "Name": "scenarioMap3",
+      "Type": 0,
+      "URL": "https://drive.google.com/uc?export=download&id=1iBW9lQRUtbLhzE2a00JL0PmSWVjoai8t"
+    },
+    {
+      "Name": "scenarioMap4",
+      "Type": 0,
+      "URL": "https://drive.google.com/uc?export=download&id=1UpPpcSeSFmbk-PngjjUuBV0pxW97P3DX"
+    },
+    {
+      "Name": "scenarioMap5",
+      "Type": 0,
+      "URL": "https://drive.google.com/uc?export=download&id=1IbGuJ6hbhrepAHLb5J7glRSzy1xOT7W5"
+    },
+    {
+      "Name": "scenarioMap6",
+      "Type": 0,
+      "URL": "https://drive.google.com/uc?export=download&id=1lpxofrzJuJgYw_kZBEeYvnbllpatrNVZ"
+    },
+    {
+      "Name": "map",
+      "Type": 0,
+      "URL": "https://drive.google.com/uc?export=download&id=1U2ylRtGqJvzvZgvEy-YCEGTR4s02kAQ0"
+    },
+    {
+      "Name": "addon1",
+      "Type": 0,
+      "URL": "https://drive.google.com/uc?export=download&id=1HnROX6Bl-VlKdUBP3io4-h46OSeXUX2F"
+    },
+    {
+      "Name": "addon2",
+      "Type": 0,
+      "URL": "https://drive.google.com/uc?export=download&id=107jQppsLQ9xss505uc0KMqMUnOvg2FYX"
+    },
+    {
+      "Name": "addon3",
+      "Type": 0,
+      "URL": "https://drive.google.com/uc?export=download&id=1YBA_OipZBLn7S_eEbIwlyOvYKbjoOgR2"
+    },
+    {
+      "Name": "addon4",
+      "Type": 0,
+      "URL": "https://drive.google.com/uc?export=download&id=1TLCwykWw_Ta3sWFAWfjrbrZxXdNWmfDH"
+    },
+    {
+      "Name": "languages",
+      "Type": 0,
+      "URL": "https://drive.google.com/uc?export=view&id=1dTI4s4LGM1hZJqWwq09-_cAqTg9_j9Ug"
+    },
+    {
+      "Name": "phase_action_image",
+      "Type": 0,
+      "URL": "https://drive.google.com/uc?export=download&id=105kR6J3QB7648wv2LylqKMS6AuHoENoR"
+    },
+    {
+      "Name": "phase_monster_image",
+      "Type": 0,
+      "URL": "https://drive.google.com/uc?export=download&id=1jPI40o3Pn-7PGY5LeYZfsROOIjOvx26s"
+    },
+    {
+      "Name": "phase_encounter_image",
+      "Type": 0,
+      "URL": "https://drive.google.com/uc?export=download&id=1_mykD9Dia89CLhmvX4HCgBqtP4BE84KD"
+    },
+    {
+      "Name": "phase_myth_image",
+      "Type": 0,
+      "URL": "https://drive.google.com/uc?export=download&id=12PeecHH6wQPItD2j0XBB3qNz40SMjssO"
+    },
+    {
+      "Name": "help_bg",
+      "Type": 0,
+      "URL": "https://drive.google.com/uc?export=view&id=1UmqorzYBqatHbYgppe_Tqufe_d5wtn9l"
+    },
+    {
+      "Name": "Fonts",
+      "Type": 1,
+      "URL": "https://drive.google.com/uc?export=view&id=18_lFlnSaOFlbNVfE-G-LFqqfptMMkKFS"
+    },
+    {
+      "Name": "hud_1",
+      "Type": 0,
+      "URL": "https://drive.google.com/uc?export=view&id=1a3BmdbyptMlKOLjeLPGXaKRK9ZEV-Pfc"
+    },
+    {
+      "Name": "scenario1",
+      "Type": 0,
+      "URL": "https://drive.google.com/uc?export=view&id=1f7GvVjoudI9nxlzGuYt-rkA1Z7xxAyi4"
+    },
+    {
+      "Name": "scenario2",
+      "Type": 0,
+      "URL": "https://drive.google.com/uc?export=view&id=1QVA-ay8jbgPHSDOVMy2fvHUf_I1QTrMR"
+    },
+    {
+      "Name": "scenario3",
+      "Type": 0,
+      "URL": "https://drive.google.com/uc?export=view&id=1drpnJ0JTAaIELKKWOyF8UKia4O0rQ8zq"
+    },
+    {
+      "Name": "scenario4",
+      "Type": 0,
+      "URL": "https://drive.google.com/uc?export=view&id=1uVP5HeVyQAgL6vSI72hs-23W0HLFi3vy"
+    },
+    {
+      "Name": "scenario5",
+      "Type": 0,
+      "URL": "https://drive.google.com/uc?export=download&id=1Aw9psPxJ_0rWoe34HL1cgajN3d4Ng1a-"
+    },
+    {
+      "Name": "scenario6",
+      "Type": 0,
+      "URL": "https://drive.google.com/uc?export=download&id=1pvH5yiXcNqzFCYlBb1wUvnNdjf-mMTmT"
+    },
+    {
+      "Name": "button_num",
+      "Type": 0,
+      "URL": "https://drive.google.com/uc?export=view&id=1M3DDKTB85k32IWGDEwHZJy4qsRyORTdV"
+    },
+    {
+      "Name": "button_medium",
+      "Type": 0,
+      "URL": "https://drive.google.com/uc?export=view&id=1B3IK6kTFtzJWe_ha0Di74urF_7TxOvQu"
+    },
+    {
+      "Name": "button_large",
+      "Type": 0,
+      "URL": "https://drive.google.com/uc?export=view&id=1WkIMh2u2HA6E7A9ecPMY2ex648D3Ktdc"
+    }
+  ],
+  "Date": "Fri Aug 15 06:38:02 UTC 2025",
+  "DecalPallet": [],
+  "Decals": [],
+  "EpochTime": 1755239882,
+  "GameComplexity": "Medium Complexity",
+  "GameMode": "Arkham Horror 3ed Complete [UA]",
+  "GameType": "Game",
+  "Gravity": 0.5,
+  "Grid": {
+    "BothSnapping": false,
+    "Color": {
+      "b": 0,
+      "g": 0,
+      "r": 0
+    },
+    "Lines": false,
+    "Offset": false,
+    "Opacity": 0.75,
+    "PosOffset": {
+      "x": 0,
+      "y": 1,
+      "z": 0
+    },
+    "Snapping": false,
+    "ThickLines": false,
+    "Type": 0,
+    "xSize": 2,
+    "ySize": 2
+  },
+  "Hands": {
+    "DisableUnused": false,
+    "Enable": true,
+    "Hiding": 2
+  },
+  "Lighting": {
+    "AmbientEquatorColor": {
+      "b": 0.5,
+      "g": 0.5,
+      "r": 0.5
+    },
+    "AmbientGroundColor": {
+      "b": 0.5,
+      "g": 0.5,
+      "r": 0.5
+    },
+    "AmbientIntensity": 0.9960011,
+    "AmbientSkyColor": {
+      "b": 0.5,
+      "g": 0.5,
+      "r": 0.5
+    },
+    "AmbientType": 0,
+    "LightColor": {
+      "b": 0.8902,
+      "g": 0.9804,
+      "r": 1
+    },
+    "LightIntensity": 0.763998,
+    "LutContribution": 1,
+    "LutIndex": 0,
+    "LutURL": "",
+    "ReflectionIntensity": 1
+  },
+  "MusicPlayer": {},
+  "Note": "",
+  "PlayArea": 0.5,
+  "PlayerCounts": [
+    1,
+    6
+  ],
+  "PlayingTime": [
+    90,
+    180
+  ],
+  "SaveName": "pub v1.0.8",
+  "Sky": "Sky_Museum",
+  "SkyURL": "https://steamusercontent-a.akamaihd.net/ugc/1004810215902243100/E890F03BD00542A575D66A7AD371A8571E67D921/",
+  "SnapPoints": [],
+  "TabStates": {
+    "0": {
+      "body": "",
+      "color": "Grey",
+      "id": 0,
+      "title": "Rules",
+      "visibleColor": {
+        "b": 0.5,
+        "g": 0.5,
+        "r": 0.5
+      }
+    },
+    "1": {
+      "body": "",
+      "color": "White",
+      "id": 1,
+      "title": "White",
+      "visibleColor": {
+        "b": 1,
+        "g": 1,
+        "r": 1
+      }
+    },
+    "2": {
+      "body": "",
+      "color": "Brown",
+      "id": 2,
+      "title": "Brown",
+      "visibleColor": {
+        "b": 0.09,
+        "g": 0.231,
+        "r": 0.443
+      }
+    },
+    "3": {
+      "body": "",
+      "color": "Red",
+      "id": 3,
+      "title": "Red",
+      "visibleColor": {
+        "b": 0.094,
+        "g": 0.1,
+        "r": 0.856
+      }
+    },
+    "4": {
+      "body": "",
+      "color": "Orange",
+      "id": 4,
+      "title": "Orange",
+      "visibleColor": {
+        "b": 0.113,
+        "g": 0.392,
+        "r": 0.956
+      }
+    },
+    "5": {
+      "body": "",
+      "color": "Yellow",
+      "id": 5,
+      "title": "Yellow",
+      "visibleColor": {
+        "b": 0.172,
+        "g": 0.898,
+        "r": 0.905
+      }
+    },
+    "6": {
+      "body": "",
+      "color": "Green",
+      "id": 6,
+      "title": "Green",
+      "visibleColor": {
+        "b": 0.168,
+        "g": 0.701,
+        "r": 0.192
+      }
+    },
+    "7": {
+      "body": "",
+      "color": "Blue",
+      "id": 7,
+      "title": "Blue",
+      "visibleColor": {
+        "b": 1,
+        "g": 0.53,
+        "r": 0.118
+      }
+    },
+    "8": {
+      "body": "",
+      "color": "Teal",
+      "id": 8,
+      "title": "Teal",
+      "visibleColor": {
+        "b": 0.607,
+        "g": 0.694,
+        "r": 0.129
+      }
+    },
+    "9": {
+      "body": "",
+      "color": "Purple",
+      "id": 9,
+      "title": "Purple",
+      "visibleColor": {
+        "b": 0.941,
+        "g": 0.125,
+        "r": 0.627
+      }
+    },
+    "10": {
+      "body": "",
+      "color": "Pink",
+      "id": 10,
+      "title": "Pink",
+      "visibleColor": {
+        "b": 0.807,
+        "g": 0.439,
+        "r": 0.96
+      }
+    },
+    "11": {
+      "body": "",
+      "color": "Black",
+      "id": 11,
+      "title": "Black",
+      "visibleColor": {
+        "b": 0.25,
+        "g": 0.25,
+        "r": 0.25
+      }
+    }
+  },
+  "Table": "Table_None",
+  "Tags": [
+    "Board Games",
+    "Role-playing Games",
+    "Strategy Games",
+    "Thematic Games",
+    "Cooperative Games",
+    "Dice Games",
+    "Ukrainian",
+    "Ukr",
+    "ukr",
+    "укр",
+    "Укр",
+    "UA",
+    "українська",
+    "Українська",
+    "Українською",
+    "українською",
+    "Україна",
+    "аркхем",
+    "аркгем",
+    "Жах Аркхему",
+    "Жах Аркгему",
+    "Arkham Horror",
+    "кооп"
+  ],
+  "Turns": {
+    "DisableInteractions": false,
+    "Enable": false,
+    "PassTurns": true,
+    "Reverse": false,
+    "SkipEmpty": false,
+    "TurnColor": "",
+    "TurnOrder": [],
+    "Type": 0
+  },
+  "VersionNumber": "v13.3"
+}

@@ -1,0 +1,1 @@
+{"name":"black grimoire","type":"special"}

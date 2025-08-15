@@ -1,0 +1,1 @@
+{"hp":4,"monstertype":["Deep One"],"name":"Shoreline Brute","remnant":true,"type":"Monster"}

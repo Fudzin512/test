@@ -1,0 +1,1 @@
+{"hp":4,"monstertype":["Mi-Go"],"name":"Cerebral Extractor","remnant":true,"type":"Monster"}

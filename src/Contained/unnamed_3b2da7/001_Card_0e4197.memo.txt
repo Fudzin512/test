@@ -1,0 +1,1 @@
+{"investigator": "Rex Murphy", "type": "starting", "guaranteed": true}

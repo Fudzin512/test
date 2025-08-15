@@ -1,0 +1,200 @@
+{
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
+  "ColorDiffuse": {
+    "b": 1,
+    "g": 0.37256,
+    "r": 0.30589
+  },
+  "ContainedObjects": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0.316,
+            "y": 0.2,
+            "z": 0.344
+          }
+        },
+        {
+          "Position": {
+            "x": 0.958,
+            "y": 0.2,
+            "z": -0.58
+          },
+          "Tags": [
+            "monster_mat"
+          ]
+        },
+        {
+          "Position": {
+            "x": 0.317,
+            "y": 0.2,
+            "z": -0.581
+          },
+          "Tags": [
+            "monster_mat"
+          ]
+        },
+        {
+          "Position": {
+            "x": -0.315,
+            "y": 0.2,
+            "z": -0.581
+          },
+          "Tags": [
+            "monster_mat"
+          ]
+        },
+        {
+          "Position": {
+            "x": -0.957,
+            "y": 0.2,
+            "z": -0.581
+          },
+          "Tags": [
+            "monster_mat"
+          ]
+        },
+        {
+          "Position": {
+            "x": -1.105,
+            "y": 0.2,
+            "z": 0.196
+          }
+        },
+        {
+          "Position": {
+            "x": 0.199,
+            "y": 0.2,
+            "z": 0.86
+          },
+          "Rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Tags": [
+            "activation_snap"
+          ]
+        },
+        {
+          "Position": {
+            "x": -0.083,
+            "y": 0.2,
+            "z": 0.86
+          },
+          "Rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "Tags": [
+            "activation_snap"
+          ]
+        }
+      ],
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "b": 0.24999,
+        "g": 0.24999,
+        "r": 0.24999
+      },
+      "CustomImage": {
+        "CustomTile": {
+          "Stackable": false,
+          "Stretch": true,
+          "Thickness": 0.2,
+          "Type": 0
+        },
+        "ImageScalar": 1,
+        "ImageSecondaryURL": "",
+        "ImageURL": "https://drive.google.com/uc?export=view&id=11eETwmhQqRpeNxWmgEZylp9948Nh0ZL8",
+        "WidthScale": 0
+      },
+      "CustomUIAssets": [
+        {
+          "Name": "Fonts",
+          "Type": 1,
+          "URL": "https://drive.google.com/uc?export=view&id=18_lFlnSaOFlbNVfE-G-LFqqfptMMkKFS"
+        }
+      ],
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "2822f4",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": true,
+      "LuaScript": "-- Bundled by luabundle {\"version\":\"1.6.0\"}\nlocal __bundle_require, __bundle_loaded, __bundle_register, __bundle_modules = (function(superRequire)\n\tlocal loadingPlaceholder = {[{}] = true}\n\n\tlocal register\n\tlocal modules = {}\n\n\tlocal require\n\tlocal loaded = {}\n\n\tregister = function(name, body)\n\t\tif not modules[name] then\n\t\t\tmodules[name] = body\n\t\tend\n\tend\n\n\trequire = function(name)\n\t\tlocal loadedModule = loaded[name]\n\n\t\tif loadedModule then\n\t\t\tif loadedModule == loadingPlaceholder then\n\t\t\t\treturn nil\n\t\t\tend\n\t\telse\n\t\t\tif not modules[name] then\n\t\t\t\tif not superRequire then\n\t\t\t\t\tlocal identifier = type(name) == 'string' and '\\\"' .. name .. '\\\"' or tostring(name)\n\t\t\t\t\terror('Tried to require ' .. identifier .. ', but no such module has been registered')\n\t\t\t\telse\n\t\t\t\t\treturn superRequire(name)\n\t\t\t\tend\n\t\t\tend\n\n\t\t\tloaded[name] = loadingPlaceholder\n\t\t\tloadedModule = modules[name](require, loaded, register, modules)\n\t\t\tloaded[name] = loadedModule\n\t\tend\n\n\t\treturn loadedModule\n\tend\n\n\treturn require, loaded, register, modules\nend)(nil)\n__bundle_register(\"__root\", function(require, _LOADED, __bundle_register, __bundle_modules)\nserpent = require(\"util/serpent\")\nlocal isTestMode = true \n\nlocal data = {\n      hp = 0,\n      hpMax = 0,\n      sanity = 0,\n      sanityMax = 0,\n    money = 0,\n    remnant = 0,\n    clue = 0,\n    name = \"\",\n    skill = {\n        lore = 0,\n        influence = 0,\n        observation = 0,\n        strength = 0,\n        will = 0\n    },\n    focus = {\n        lore = 0,\n        influence = 0,\n        observation = 0,\n        strength = 0,\n        will = 0\n    }\n}\n\nfunction getAttributes()\n    return {\n        width = \"250\",\n        height = \"230\",\n        scale = \"0.1 0.1 1\",\n        textColor = \"#a29c90\",\n        fontSize = \"120\",\n        fontStyle = \"Bold\",\n        rotation=\"0 0 180\",\n        font = \"Fonts/AdonisC\"\n    }\nend\n\nfunction getButton()\n    local attributes = getAttributes()\n    attributes.color = \"clear\"\n    return {\n      tag = \"Button\",\n      attributes = attributes\n    }\nend\n\nfunction getSkillButton()\n    local button = getButton()\n    button.attributes.textAlignment=\"MiddleLeft\"\n    button.attributes.padding = \"100 0 0 0\"\n    button.attributes.width = \"400\"\n    return button\nend\n\nfunction getLifeButton()\n  local button = getButton()\n  button.attributes.width = \"550\"\n  button.attributes.height = \"300\"\n  button.attributes.fontSize=\"200\"\n  button.attributes.padding = \"0 80 0 0\"\n  button.attributes.textAlignment=\"MiddleRight\"\n  return button\nend\n\nfunction getVerticalButton()\n  local button = getButton()\n  button.attributes.height = \"450\"\n  button.attributes.padding = \"0 0 0 50\"\n  button.attributes.textAlignment=\"LowerCenter\"\n  return button\nend\n\nfunction getFocusText()\n    local attributes = getAttributes()\n    attributes.fontSize = \"50\"\n    attributes.rotation = nil\n    return {\n        tag = \"Text\",\n        attributes = attributes\n    }\nend\n\nfunction getMechanicButtons()\n  return {\n  {\n    attributes = {\n      id = \"IM_enemy_text\",\n      color = \"#ffffff\",\n      font = \"Fonts/AdonisC\",\n      fontSize = \"95\",\n      fontStyle = \"Bold\",\n      position = \"0 -55 -22\",\n      rotation = \"0 0 180\",\n      scale = \"0.1 0.1 0.1\",\n      text = \"\"\n    },\n    tag = \"text\"\n  },\n  {\n    attributes = {\n      id = \"IM_discard_text\",\n      color = \"#ffffff\",\n      font = \"Fonts/AdonisC\",\n      fontSize = \"60\",\n      fontStyle = \"Bold\",\n      position = \"-110 20 -22\",\n      rotation = \"0 0 180\",\n      scale = \"0.1 0.1 0.1\",\n      text = \"\"\n    },\n    tag = \"text\"\n  },\n  {\n    attributes = {\n      height = \"120\",\n      position = \"-110 43 -22\",\n      rotation = \"0 0 180\",\n      scale = \"0.1 0.1 0.1\",\n      width = \"350\"\n    },\n    children = {\n      {\n        attributes = {\n          id = \"IM_discard_desc_text\",\n          color = \"#a2a2a2\",\n          font = \"Fonts/AdonisC\",\n          fontSize = \"26\",\n          fontStyle = \"Bold\",\n          text = \"\"\n        },\n        children = {},\n        tag = \"text\"\n      }\n    },\n    tag = \"panel\"\n  },\n  {\n    attributes = {\n      color = \"clear\",\n      font = \"Fonts/AdonisC\",\n      fontSize = \"40\",\n      fontStyle = \"Bold\",\n      height = \"120\",\n      id = \"IM_death\",\n      onClick = \"clickDeath\",\n      padding = \"90 0 0 0\",\n      position = \"78 95 -22\",\n      rotation = \"0 0 180\",\n      scale = \"0.1 0.1 0.1\",\n      text = \"\",\n      textColor = \"#ffffff\",\n      width = \"226\"\n    },\n    tag = \"button\"\n  },\n  {\n    attributes = {\n      color = \"clear\",\n      font = \"Fonts/AdonisC\",\n      fontSize = \"40\",\n      fontStyle = \"Bold\",\n      height = \"120\",\n      id = \"IM_bio\",\n      onClick = \"clickBio\",\n      padding = \"90 0 0 0\",\n      position = \"50 95 -22\",\n      rotation = \"0 0 180\",\n      scale = \"0.1 0.1 0.1\",\n      text = \"\",\n      textColor = \"#ffffff\",\n      width = \"280\"\n    },\n    tag = \"button\"\n  }\n}\nend\n\nfunction onLoad(savedData)\n\n  local sData = parseJson(savedData)\n  if sData then\n    data = sData \n  end\n\n   local skills = {\n    {\n        onClick = \"clickLore\",\n        text = data.skill.lore\n    },\n    {\n        onClick = \"clickInfluence\",\n        text = data.skill.influence\n    },\n    {\n        onClick = \"clickObservation\",\n        text = data.skill.observation\n    },\n    {\n        onClick = \"clickStrength\",\n        text = data.skill.strength\n    },\n    {\n        onClick = \"clickWill\",\n        text = data.skill.will\n    }\n  }\n\n  local startPos = -3\n  for i = 1, #skills do\n    local button = getSkillButton()\n    button.attributes.id=skills[i].onClick\n    button.attributes.onClick=skills[i].onClick\n    button.attributes.text = skills[i].text\n    button.attributes.position = \"115 \"..startPos..\" -21\"\n    skills[i] = button\n      startPos=startPos+22.5\n  end\n\n  local focuses = {\n    {\n        id = \"focusLore\",\n        text = data.focus.lore,\n        color = \"#382c52\",\n        image = \"https://drive.google.com/uc?export=view&id=1Aq7R2-Kn4pe9yuyoIZV8naOhq6YrMT8R\"\n    },\n    {\n        id = \"focusInfluence\",\n        text = data.focus.influence,\n        color = \"#62280f\",\n        image = \"https://drive.google.com/uc?export=view&id=10SIQclth2ivBx6Djk-lh823F6Qe3SCEY\"\n    },\n    {\n        id = \"focusObservation\",\n        text = data.focus.observation,\n        color = \"#233c14\",\n        image = \"https://drive.google.com/uc?export=view&id=19hQ8ski6BMqvThDkDC1YKEsyeqwI8eBF\"\n    }, \n    {\n        id = \"focusStrength\",\n        text = data.focus.strength,\n        color = \"#582410\",\n        image = \"https://drive.google.com/uc?export=view&id=14jdG30fw691zUYlpcCh5gE4OThSdoY8j\"\n    },\n    {\n        id = \"focusWill\",\n        text = data.focus.will,\n        color = \"#333c4f\",\n        image = \"https://drive.google.com/uc?export=view&id=1UsLCEiQw_xPXWf8ToTVhrUA_lyHJ4Wpe\"\n    }\n  }\n\n    local startPos = -5\n  for i = 1, #focuses do\n      local image = {\n  tag = \"Image\",\n  attributes = {\n    width = \"18\",\n    height = \"18\",\n    position = \"107 -5 -21\",\n    rotation=\"0 0 180\",\n    active=focuses[i].text>0\n  },\n}\n\n    image.attributes.id = focuses[i].id\n    image.attributes.image = focuses[i].image\n\n    local focus = getFocusText()\n    focus.attributes.id=focuses[i].id..\"Text\"\n    focus.attributes.color=focuses[i].color\n    focus.attributes.text = focuses[i].text\n    focus.attributes.position = \"-5 -5.3 0\"\n    focus.attributes.color = \"#382c52\"\n\n    image.attributes.position = \"107 \"..startPos..\" -21\"\n    image.children = focus\n    startPos=startPos+22.5\n    \n    table.insert(skills, image)\n  end\n\n  local hp = getLifeButton()\n  hp.attributes.id=\"clickHP\"\n  hp.attributes.onClick = \"clickHP\"\n  hp.attributes.text=data.hp\n  hp.attributes.position=\"-60 3 -21\"\n  table.insert(skills, hp)\n\nlocal sanity = getLifeButton()\n  sanity.attributes.id=\"clickSanity\"\n  sanity.attributes.onClick = \"clickSanity\"\n  sanity.attributes.text=data.sanity\n  sanity.attributes.position=\"-60 37 -21\"\n  table.insert(skills, sanity)\n\n  local money = getVerticalButton()\n  money.attributes.id=\"clickMoney\"\n  money.attributes.onClick = \"clickMoney\"\n  money.attributes.text= data.money\n  money.attributes.position=\"-50.5 78 -21\"\n  table.insert(skills, money)\n\n   local remnant = getVerticalButton()\n  remnant.attributes.id=\"clickRemnant\"\n  remnant.attributes.onClick = \"clickRemnant\"\n  remnant.attributes.text= data.remnant\n  remnant.attributes.position=\"-80 78 -21\"\n  table.insert(skills, remnant)\n\n  local clue = getVerticalButton()\n  clue.attributes.id=\"clickClue\"\n  clue.attributes.onClick = \"clickClue\"\n  clue.attributes.text= data.clue\n  clue.attributes.padding = \"0 0 0 70\"\n  clue.attributes.position=\"-112.5 78 -21\"\n  table.insert(skills, clue)\n\n  local mechanicButtons = getMechanicButtons()\n  self.UI.setXmlTable(mechanicButtons)\n  for i = 1, #mechanicButtons do\n    table.insert(skills, mechanicButtons[i])\n  end\n\n  self.UI.setXmlTable(skills)\nend\n\nfunction onSave()\n  local saveData = JSON.encode(data)\n  return saveData\nend\n\nfunction setMemo(objectMemo)\n  if not objectMemo then\n    objectMemo = {}\n     objectMemo.hp = 0\n     objectMemo.sanity = 0\n     objectMemo.skill = {}\n     objectMemo.skill.lore = 0\n     objectMemo.skill.influence = 0\n     objectMemo.skill.observation = 0\n     objectMemo.skill.strength = 0\n     objectMemo.skill.will = 0\n     objectMemo.money = 0\n     objectMemo.remnant = 0\n     objectMemo.clue = 0\n\n     data.hp = 0\n     data.sanity = 0\n     data.focus = {}\n     data.focus.lore = 0\n     data.focus.influence = 0\n     data.focus.observation = 0\n     data.focus.strength = 0\n     data.focus.will = 0\n\n     data.guid = nil\n   else\n\n    if data.guid and data.guid == objectMemo.guid then\n      return\n    end\n\n    data.guid = objectMemo.guid\n  end\n\n    data.hpMax = objectMemo.hp\n    self.UI.setAttribute(\"clickHP\", \"text\", data.hp)\n    self.UI.setAttribute(\"clickHP\", \"textColor\", data.hp > 0 and \"#fff5e2\" or \"#a29c90\")\n\n    data.sanityMax = objectMemo.sanity\n    self.UI.setAttribute(\"clickSanity\", \"text\", data.sanity)\n    self.UI.setAttribute(\"clickSanity\", \"textColor\", data.sanity > 0 and \"#fff5e2\" or \"#a29c90\")\n\n    data.skill.lore = objectMemo.skill.lore\n    self.UI.setAttribute(\"clickLore\", \"text\", data.skill.lore)\n    self.UI.setAttribute(\"clickLore\", \"textColor\", \"#a29c90\")\n\n    data.skill.influence = objectMemo.skill.influence\n    self.UI.setAttribute(\"clickInfluence\", \"text\", data.skill.influence)\n    self.UI.setAttribute(\"clickInfluence\", \"textColor\", \"#a29c90\")\n\n    data.skill.observation = objectMemo.skill.observation\n    self.UI.setAttribute(\"clickObservation\", \"text\", data.skill.observation)\n    self.UI.setAttribute(\"clickObservation\", \"textColor\", \"#a29c90\")\n\n    data.skill.strength = objectMemo.skill.strength\n    self.UI.setAttribute(\"clickStrength\", \"text\", data.skill.strength)\n    self.UI.setAttribute(\"clickStrength\", \"textColor\", \"#a29c90\")\n\n    data.skill.will = objectMemo.skill.will\n    self.UI.setAttribute(\"clickWill\", \"text\", data.skill.will)\n    self.UI.setAttribute(\"clickWill\", \"textColor\", \"#a29c90\")\n\n    data.money = objectMemo.money\n    self.UI.setAttribute(\"clickMoney\", \"text\", data.money)\n    self.UI.setAttribute(\"clickMoney\", \"textColor\", data.money > 0 and \"#fff5e2\" or \"#a29c90\")\n\n    data.remnant = 0\n    self.UI.setAttribute(\"clickRemnant\", \"text\", data.remnant)\n    self.UI.setAttribute(\"clickRemnant\", \"textColor\", data.remnant > 0 and \"#fff5e2\" or \"#a29c90\")\n\n    data.clue = 0\n    self.UI.setAttribute(\"clickClue\", \"text\", data.clue)\n    self.UI.setAttribute(\"clickClue\", \"textColor\", data.clue > 0 and \"#fff5e2\" or \"#a29c90\")\n\n    self.UI.setAttribute(\"focusLoreText\", \"text\",\"+\"..data.focus.lore)\n    self.UI.setAttribute(\"focusLoreText\", \"textColor\", \"#382c52\")\n    self.UI.setAttribute(\"focusLore\", \"active\", false)\n\n    self.UI.setAttribute(\"focusInfluenceText\", \"text\",\"+\"..data.focus.influence)\n    self.UI.setAttribute(\"focusInfluenceText\", \"textColor\", \"#62280f\")\n    self.UI.setAttribute(\"focusInfluence\", \"active\", false)\n\n    self.UI.setAttribute(\"focusObservationText\", \"text\",\"+\"..data.focus.observation)\n    self.UI.setAttribute(\"focusObservationText\", \"textColor\", \"#a29c90\")\n    self.UI.setAttribute(\"focusObservation\", \"active\", false)\n\n    self.UI.setAttribute(\"focusStrengthText\", \"text\",\"+\"..data.focus.strength)\n    self.UI.setAttribute(\"focusStrengthText\", \"textColor\", \"#a29c90\")\n    self.UI.setAttribute(\"focusStrength\", \"active\", false)\n\n    self.UI.setAttribute(\"focusWillText\", \"text\",\"+\"..data.focus.will)\n    self.UI.setAttribute(\"focusWillText\", \"textColor\", \"#a29c90\")\n    self.UI.setAttribute(\"focusWill\", \"active\", false)\nend\n\nfunction clickLore(player, alt_click)\n  data.focus.lore = alt_click == \"-1\" and data.focus.lore+1 or (data.focus.lore > 0 and data.focus.lore-1 or 0)\n    self.UI.setAttribute(\"clickLore\", \"text\", data.skill.lore+data.focus.lore)\n    self.UI.setAttribute(\"clickLore\", \"textColor\", data.focus.lore > 0 and \"#fff5e2\" or \"#a29c90\")\n\n    self.UI.setAttribute(\"focusLoreText\", \"text\",\"+\"..data.focus.lore)\n    self.UI.setAttribute(\"focusLoreText\", \"textColor\", \"#382c52\")\n    self.UI.setAttribute(\"focusLore\", \"active\", data.focus.lore > 0)\nend\n\nfunction clickInfluence(player, alt_click)\n    data.focus.influence = alt_click == \"-1\" and data.focus.influence+1 or (data.focus.influence > 0 and data.focus.influence-1 or 0)\n    self.UI.setAttribute(\"clickInfluence\", \"text\", data.skill.influence+data.focus.influence)\n    self.UI.setAttribute(\"clickInfluence\", \"textColor\", data.focus.influence > 0 and \"#fff5e2\" or \"#a29c90\")\n\n    self.UI.setAttribute(\"focusInfluenceText\", \"text\",\"+\"..data.focus.influence)\n    self.UI.setAttribute(\"focusLoreText\", \"textColor\", \"#62280f\")\n    self.UI.setAttribute(\"focusInfluence\", \"active\", data.focus.influence > 0)\nend\n\nfunction clickObservation(player, alt_click)\n    data.focus.observation = alt_click == \"-1\" and data.focus.observation+1 or (data.focus.observation > 0 and data.focus.observation-1 or 0)\n    self.UI.setAttribute(\"clickObservation\", \"text\", data.skill.observation+data.focus.observation)\n    self.UI.setAttribute(\"clickObservation\", \"textColor\", data.focus.observation > 0 and \"#fff5e2\" or \"#a29c90\")\n\n    self.UI.setAttribute(\"focusObservationText\", \"text\",\"+\"..data.focus.observation)\n    self.UI.setAttribute(\"focusLoreText\", \"textColor\", \"#233c14\")\n    self.UI.setAttribute(\"focusObservation\", \"active\", data.focus.observation > 0)\nend\n\nfunction clickStrength(player, alt_click)\n    data.focus.strength = alt_click == \"-1\" and data.focus.strength+1 or (data.focus.strength > 0 and data.focus.strength-1 or 0)\n    self.UI.setAttribute(\"clickStrength\", \"text\", data.skill.strength+data.focus.strength)\n    self.UI.setAttribute(\"clickStrength\", \"textColor\", data.focus.strength > 0 and \"#fff5e2\" or \"#a29c90\")\n\n    self.UI.setAttribute(\"focusStrengthText\", \"text\",\"+\"..data.focus.strength)\n    self.UI.setAttribute(\"focusLoreText\", \"textColor\", \"#582410\")\n    self.UI.setAttribute(\"focusStrength\", \"active\", data.focus.strength > 0)\nend\n\nfunction clickWill(player, alt_click)\n    data.focus.will = alt_click == \"-1\" and data.focus.will+1 or (data.focus.will > 0 and data.focus.will-1 or 0)\n    self.UI.setAttribute(\"clickWill\", \"text\", data.skill.will+data.focus.will)\n    self.UI.setAttribute(\"clickWill\", \"textColor\", data.focus.will > 0 and \"#fff5e2\" or \"#a29c90\")\n\n    self.UI.setAttribute(\"focusWillText\", \"text\",\"+\"..data.focus.will)\n    self.UI.setAttribute(\"focusLoreText\", \"textColor\", \"#333c4f\")\n    self.UI.setAttribute(\"focusWill\", \"active\", data.focus.will > 0)\nend\n\nfunction clickHP(player, alt_click)\n    data.hp = alt_click == \"-1\" and (data.hp < data.hpMax and data.hp+1 or data.hp) or (data.hp > 0 and data.hp-1 or 0)\n    \n    self.UI.setAttribute(\"clickHP\", \"text\", data.hp)\n    self.UI.setAttribute(\"clickHP\", \"textColor\", data.hp > 0 and \"#fff5e2\" or \"#a29c90\")\nend\n\nfunction clickSanity(player, alt_click)\n    data.sanity = alt_click == \"-1\" and (data.sanity < data.sanityMax and data.sanity+1 or data.sanity) or (data.sanity > 0 and data.sanity-1 or 0)\n    \n    self.UI.setAttribute(\"clickSanity\", \"text\", data.sanity)\n    self.UI.setAttribute(\"clickSanity\", \"textColor\", data.sanity > 0 and \"#fff5e2\" or \"#a29c90\")\nend\n\nfunction clickMoney(player, alt_click)\n    data.money = alt_click == \"-1\" and data.money+1 or (data.money>0 and data.money-1 or data.money)\n    \n    self.UI.setAttribute(\"clickMoney\", \"text\", data.money)\n    self.UI.setAttribute(\"clickMoney\", \"textColor\", data.money > 0 and \"#fff5e2\" or \"#a29c90\")\nend\n\nfunction clickRemnant(player, alt_click)\n    data.remnant = alt_click == \"-1\" and data.remnant+1 or (data.remnant>0 and data.remnant-1 or data.remnant)\n    \n    self.UI.setAttribute(\"clickRemnant\", \"text\", data.remnant)\n    self.UI.setAttribute(\"clickRemnant\", \"textColor\", data.remnant > 0 and \"#fff5e2\" or \"#a29c90\")\nend\n\nfunction clickClue(player, alt_click)\n  if alt_click ~= \"-1\" and data.clue > 0 then\n      Global.call(\"onPlayerClickRemoveClue\", self)\n    end\n\n    data.clue = alt_click == \"-1\" and data.clue+1 or (data.clue>0 and data.clue-1 or data.clue)\n    \n    self.UI.setAttribute(\"clickClue\", \"text\", data.clue)\n    self.UI.setAttribute(\"clickClue\", \"textColor\", data.clue > 0 and \"#fff5e2\" or \"#a29c90\")\nend\n\nfunction clickDeath(player, alt_click)\n  Global.call(\"onPlayerClickDeath\", {mat = self, player = player})\nend\n\nfunction clickBio(player, alt_click)\n  Global.call(\"onPlayerClickBio\", {mat = self})\nend\n\nfunction addClue()\n  clickClue(nil, \"-1\")\nend\n\nfunction updateMoney(value)\n  local newValue = data.money+value\n  if newValue < 0 then\n    return false\n  end\n\n  data.money = data.money+value\n  self.UI.setAttribute(\"clickMoney\", \"text\", data.money)\n  self.UI.setAttribute(\"clickMoney\", \"textColor\", data.money > 0 and \"#fff5e2\" or \"#a29c90\")\n  return true\nend\n\nfunction parseJson(memo)\n  if not memo or type(memo) ~= \"string\" then\n    return nil\n  end\n\n  local success, result = pcall(function()\n    return JSON.decode(memo)\n  end)\n\n  if success then\n    return result\n  else\n    return nil\n  end\nend\n\nfunction upCast(obj, dist, offset, multi)\n  if obj == nil then\n    return\n  end -- object to cast up from\n  local dist = dist or 1 -- distance to cast in Y world units\n  local offset = offset or 0 -- distance above the surface of obj to begin the cast\n  local multi = multi or 1 -- multiplier of the X and Z world units of the object\n  local oPos = obj.getPosition()\n  local oBounds = obj.getBoundsNormalized()\n  local oRot = obj.getRotation()\n  local orig = {oPos[1], oPos[2] + dist / 2 + oBounds.size.y / 2 + offset, oPos[3]}\n  local siz = {oBounds.size.x * multi, dist, oBounds.size.z * multi}\n  local orient = {oRot[1], oRot[2], oRot[3]}\n  local hits = Physics.cast({\n    origin = orig,\n    direction = {0, 1, 0},\n    type = 3,\n    size = siz,\n    orientation = orient,\n    max_distance = 0,\n    debug = isTestMode -- set this to false once you're happy with the result\n  })\n  local hitObjects = {}\n  for i, v in pairs(hits) do\n    if v.hit_object ~= obj then\n      table.insert(hitObjects, v.hit_object)\n    end\n  end\n  return hitObjects\nend\n\nfunction downCast(obj, dist, offset, multi)\n  if obj == nil then\n    return\n  end\n  local dist = dist or 1\n  local offset = offset or 0\n  local multi = multi or 1\n  local oPos = obj.getPosition()\n  local oBounds = obj.getBoundsNormalized()\n  local oRot = obj.getRotation()\n  local orig = {oPos[1], oPos[2] - dist / 2 - oBounds.size.y / 2 - offset, oPos[3]}\n  local siz = {oBounds.size.x * multi, dist, oBounds.size.z * multi}\n  local orient = {oRot[1], oRot[2], oRot[3]}\n  local hits = Physics.cast({\n    origin = orig,\n    direction = {0, 1, 0},\n    type = 3,\n    size = siz,\n    orientation = orient,\n    max_distance = 0,\n    debug = isTestMode\n  })\n  local hitObjects = {}\n  for i, v in pairs(hits) do\n    if v.hit_object ~= obj then\n      table.insert(hitObjects, v.hit_object)\n    end\n  end\n  return hitObjects\nend\nend)\n__bundle_register(\"util/serpent\", function(require, _LOADED, __bundle_register, __bundle_modules)\nlocal n, v = \"serpent\", \"0.303\" -- (C) 2012-18 Paul Kulchenko; MIT License\nlocal c, d = \"Paul Kulchenko\", \"Lua serializer and pretty printer\"\nlocal snum = {[tostring(1/0)]='1/0 --[[math.huge]]',[tostring(-1/0)]='-1/0 --[[-math.huge]]',[tostring(0/0)]='0/0'}\nlocal badtype = {thread = true, userdata = true, cdata = true}\nlocal getmetatable = debug and debug.getmetatable or getmetatable\nlocal pairs = function(t) return next, t end -- avoid using __pairs in Lua 5.2+\nlocal keyword, globals, G = {}, {}, (_G or _ENV)\nfor _,k in ipairs({'and', 'break', 'do', 'else', 'elseif', 'end', 'false',\n  'for', 'function', 'goto', 'if', 'in', 'local', 'nil', 'not', 'or', 'repeat',\n  'return', 'then', 'true', 'until', 'while'}) do keyword[k] = true end\nfor k,v in pairs(G) do globals[v] = k end -- build func to name mapping\nfor _,g in ipairs({'coroutine', 'debug', 'io', 'math', 'string', 'table', 'os'}) do\n  for k,v in pairs(type(G[g]) == 'table' and G[g] or {}) do globals[v] = g..'.'..k end end\n\nlocal function s(t, opts)\n  local name, indent, fatal, maxnum = opts.name, opts.indent, opts.fatal, opts.maxnum\n  local sparse, custom, huge = opts.sparse, opts.custom, not opts.nohuge\n  local space, maxl = (opts.compact and '' or ' '), (opts.maxlevel or math.huge)\n  local maxlen, metatostring = tonumber(opts.maxlength), opts.metatostring\n  local iname, comm = '_'..(name or ''), opts.comment and (tonumber(opts.comment) or math.huge)\n  local numformat = opts.numformat or \"%.17g\"\n  local seen, sref, syms, symn = {}, {'local '..iname..'={}'}, {}, 0\n  local function gensym(val) return '_'..(tostring(tostring(val)):gsub(\"[^%w]\",\"\"):gsub(\"(%d%w+)\",\n    -- tostring(val) is needed because __tostring may return a non-string value\n    function(s) if not syms[s] then symn = symn+1; syms[s] = symn end return tostring(syms[s]) end)) end\n  local function safestr(s) return type(s) == \"number\" and (huge and snum[tostring(s)] or numformat:format(s))\n    or type(s) ~= \"string\" and tostring(s) -- escape NEWLINE/010 and EOF/026\n    or (\"%q\"):format(s):gsub(\"\\010\",\"n\"):gsub(\"\\026\",\"\\\\026\") end\n  -- handle radix changes in some locales\n  if opts.fixradix and (\".1f\"):format(1.2) ~= \"1.2\" then\n    local origsafestr = safestr\n    safestr = function(s) return type(s) == \"number\"\n      and (nohuge and snum[tostring(s)] or numformat:format(s):gsub(\",\",\".\")) or origsafestr(s)\n    end\n  end\n  local function comment(s,l) return comm and (l or 0) < comm and ' --[['..select(2, pcall(tostring, s))..']]' or '' end\n  local function globerr(s,l) return globals[s] and globals[s]..comment(s,l) or not fatal\n    and safestr(select(2, pcall(tostring, s))) or error(\"Can't serialize \"..tostring(s)) end\n  local function safename(path, name) -- generates foo.bar, foo[3], or foo['b a r']\n    local n = name == nil and '' or name\n    local plain = type(n) == \"string\" and n:match(\"^[%l%u_][%w_]*$\") and not keyword[n]\n    local safe = plain and n or '['..safestr(n)..']'\n    return (path or '')..(plain and path and '.' or '')..safe, safe end\n  local alphanumsort = type(opts.sortkeys) == 'function' and opts.sortkeys or function(k, o, n) -- k=keys, o=originaltable, n=padding\n    local maxn, to = tonumber(n) or 12, {number = 'a', string = 'b'}\n    local function padnum(d) return (\"%0\"..tostring(maxn)..\"d\"):format(tonumber(d)) end\n    table.sort(k, function(a,b)\n      -- sort numeric keys first: k[key] is not nil for numerical keys\n      return (k[a] ~= nil and 0 or to[type(a)] or 'z')..(tostring(a):gsub(\"%d+\",padnum))\n           < (k[b] ~= nil and 0 or to[type(b)] or 'z')..(tostring(b):gsub(\"%d+\",padnum)) end) end\n  local function val2str(t, name, indent, insref, path, plainindex, level)\n    local ttype, level, mt = type(t), (level or 0), getmetatable(t)\n    local spath, sname = safename(path, name)\n    local tag = plainindex and\n      ((type(name) == \"number\") and '' or name..space..'='..space) or\n      (name ~= nil and sname..space..'='..space or '')\n    if seen[t] then -- already seen this element\n      sref[#sref+1] = spath..space..'='..space..seen[t]\n      return tag..'nil'..comment('ref', level)\n    end\n    -- protect from those cases where __tostring may fail\n    if type(mt) == 'table' and metatostring ~= false then\n      local to, tr = pcall(function() return mt.__tostring(t) end)\n      local so, sr = pcall(function() return mt.__serialize(t) end)\n      if (to or so) then -- knows how to serialize itself\n        seen[t] = insref or spath\n        t = so and sr or tr\n        ttype = type(t)\n      end -- new value falls through to be serialized\n    end\n    if ttype == \"table\" then\n      if level >= maxl then return tag..'{}'..comment('maxlvl', level) end\n      seen[t] = insref or spath\n      if next(t) == nil then return tag..'{}'..comment(t, level) end -- table empty\n      if maxlen and maxlen < 0 then return tag..'{}'..comment('maxlen', level) end\n      local maxn, o, out = math.min(#t, maxnum or #t), {}, {}\n      for key = 1, maxn do o[key] = key end\n      if not maxnum or #o < maxnum then\n        local n = #o -- n = n + 1; o[n] is much faster than o[#o+1] on large tables\n        for key in pairs(t) do\n          if o[key] ~= key then n = n + 1; o[n] = key end\n        end\n      end\n      if maxnum and #o > maxnum then o[maxnum+1] = nil end\n      if opts.sortkeys and #o > maxn then alphanumsort(o, t, opts.sortkeys) end\n      local sparse = sparse and #o > maxn -- disable sparsness if only numeric keys (shorter output)\n      for n, key in ipairs(o) do\n        local value, ktype, plainindex = t[key], type(key), n <= maxn and not sparse\n        if opts.valignore and opts.valignore[value] -- skip ignored values; do nothing\n        or opts.keyallow and not opts.keyallow[key]\n        or opts.keyignore and opts.keyignore[key]\n        or opts.valtypeignore and opts.valtypeignore[type(value)] -- skipping ignored value types\n        or sparse and value == nil then -- skipping nils; do nothing\n        elseif ktype == 'table' or ktype == 'function' or badtype[ktype] then\n          if not seen[key] and not globals[key] then\n            sref[#sref+1] = 'placeholder'\n            local sname = safename(iname, gensym(key)) -- iname is table for local variables\n            sref[#sref] = val2str(key,sname,indent,sname,iname,true)\n          end\n          sref[#sref+1] = 'placeholder'\n          local path = seen[t]..'['..tostring(seen[key] or globals[key] or gensym(key))..']'\n          sref[#sref] = path..space..'='..space..tostring(seen[value] or val2str(value,nil,indent,path))\n        else\n          out[#out+1] = val2str(value,key,indent,nil,seen[t],plainindex,level+1)\n          if maxlen then\n            maxlen = maxlen - #out[#out]\n            if maxlen < 0 then break end\n          end\n        end\n      end\n      local prefix = string.rep(indent or '', level)\n      local head = indent and '{\\n'..prefix..indent or '{'\n      local body = table.concat(out, ','..(indent and '\\n'..prefix..indent or space))\n      local tail = indent and \"\\n\"..prefix..'}' or '}'\n      return (custom and custom(tag,head,body,tail,level) or tag..head..body..tail)..comment(t, level)\n    elseif badtype[ttype] then\n      seen[t] = insref or spath\n      return tag..globerr(t, level)\n    elseif ttype == 'function' then\n      seen[t] = insref or spath\n      if opts.nocode then return tag..\"function() --[[..skipped..]] end\"..comment(t, level) end\n      local ok, res = pcall(string.dump, t)\n      local func = ok and \"((loadstring or load)(\"..safestr(res)..\",'@serialized'))\"..comment(t, level)\n      return tag..(func or globerr(t, level))\n    else return tag..safestr(t) end -- handle all other types\n  end\n  local sepr = indent and \"\\n\" or \";\"..space\n  local body = val2str(t, name, indent) -- this call also populates sref\n  local tail = #sref>1 and table.concat(sref, sepr)..sepr or ''\n  local warn = opts.comment and #sref>1 and space..\"--[[incomplete output with shared/self-references skipped]]\" or ''\n  return not name and body..warn or \"do local \"..body..sepr..tail..\"return \"..name..sepr..\"end\"\nend\n\nlocal function deserialize(data, opts)\n  local env = (opts and opts.safe == false) and G\n    or setmetatable({}, {\n        __index = function(t,k) return t end,\n        __call = function(t,...) error(\"cannot call functions\") end\n      })\n  local f, res = (loadstring or load)('return '..data, nil, nil, env)\n  if not f then f, res = (loadstring or load)(data, nil, nil, env) end\n  if not f then return f, res end\n  if setfenv then setfenv(f, env) end\n  return pcall(f)\nend\n\nlocal function merge(a, b) if b then for k,v in pairs(b) do a[k] = v end end; return a; end\nreturn { _NAME = n, _COPYRIGHT = c, _DESCRIPTION = d, _VERSION = v, serialize = s,\n  load = deserialize,\n  dump = function(a, opts) return s(a, merge({name = '_', compact = true, sparse = true}, opts)) end,\n  line = function(a, opts) return s(a, merge({sortkeys = true, comment = true}, opts)) end,\n  block = function(a, opts) return s(a, merge({indent = '  ', sortkeys = true, comment = true}, opts)) end,\n  tts = function(a, opts)\n    return s(a, merge({\n      indent = '  ',\n      sortkeys = true,\n      comment = false,\n      metatostring = false,\n    },\n    opts))\n  end\n}\nend)\nreturn __bundle_require(\"__root\")",
+      "LuaScriptState": "{\n  \"clue\": 0,\n  \"focus\": {\n    \"influence\": 0,\n    \"lore\": 0,\n    \"observation\": 0,\n    \"strength\": 0,\n    \"will\": 0\n  },\n  \"hp\": 0,\n  \"hpMax\": 0,\n  \"money\": 0,\n  \"name\": \"\",\n  \"remnant\": 0,\n  \"sanity\": 0,\n  \"sanityMax\": 0,\n  \"skill\": {\n    \"influence\": 0,\n    \"lore\": 0,\n    \"observation\": 0,\n    \"strength\": 0,\n    \"will\": 0\n  }\n}",
+      "MeasureMovement": false,
+      "Memo": "Investigator Mat",
+      "Name": "Custom_Tile",
+      "Nickname": "Investigator Mat",
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "i18n_XML"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 105.386,
+        "posY": 1,
+        "posZ": 90.242,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 5,
+        "scaleY": 1,
+        "scaleZ": 5
+      },
+      "Value": 0,
+      "XmlUI": ""
+    }
+  ],
+  "Description": "",
+  "DragSelectable": true,
+  "GMNotes": "",
+  "GUID": "774898",
+  "Grid": true,
+  "GridProjection": false,
+  "Hands": false,
+  "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "MaterialIndex": -1,
+  "MeasureMovement": false,
+  "MeshIndex": -1,
+  "Name": "Infinite_Bag",
+  "Nickname": "",
+  "Snap": true,
+  "Sticky": true,
+  "Tooltip": true,
+  "Transform": {
+    "posX": -12.948,
+    "posY": 1.983,
+    "posZ": 36.705,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+  },
+  "Value": 0
+}

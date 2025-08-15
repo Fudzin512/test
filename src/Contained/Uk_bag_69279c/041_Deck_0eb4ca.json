@@ -1,0 +1,538 @@
+{
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
+  "ColorDiffuse": {
+    "b": 0.71324,
+    "g": 0.71324,
+    "r": 0.71324
+  },
+  "ContainedObjects": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 581610,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5816": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=15PYVa3MXnbFpr41UfRWdRXwEmyNWVIhH",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1o2bU97CJ1CiyUeMvyF4L7EOYnPEY52xl",
+          "NumHeight": 5,
+          "NumWidth": 8,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "9eb4c6",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"neighborhood\":\"Rivertown\",\"type\":\"encounter\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 37.112,
+        "posY": 2.014,
+        "posZ": -68.324,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 180,
+        "scaleX": 1.5,
+        "scaleY": 1,
+        "scaleZ": 1.5
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 581611,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5816": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=15PYVa3MXnbFpr41UfRWdRXwEmyNWVIhH",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1o2bU97CJ1CiyUeMvyF4L7EOYnPEY52xl",
+          "NumHeight": 5,
+          "NumWidth": 8,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "88bd0f",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"neighborhood\":\"Rivertown\",\"type\":\"encounter\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 32.325,
+        "posY": 2.014,
+        "posZ": -68.294,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 180,
+        "scaleX": 1.5,
+        "scaleY": 1,
+        "scaleZ": 1.5
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 581612,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5816": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=15PYVa3MXnbFpr41UfRWdRXwEmyNWVIhH",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1o2bU97CJ1CiyUeMvyF4L7EOYnPEY52xl",
+          "NumHeight": 5,
+          "NumWidth": 8,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "ae526a",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"neighborhood\":\"Rivertown\",\"type\":\"encounter\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 28.346,
+        "posY": 2.014,
+        "posZ": -68.048,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 180,
+        "scaleX": 1.5,
+        "scaleY": 1,
+        "scaleZ": 1.5
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 581609,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5816": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=15PYVa3MXnbFpr41UfRWdRXwEmyNWVIhH",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1o2bU97CJ1CiyUeMvyF4L7EOYnPEY52xl",
+          "NumHeight": 5,
+          "NumWidth": 8,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "ee05f1",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"neighborhood\":\"Rivertown\",\"type\":\"encounter\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 41.262,
+        "posY": 2.014,
+        "posZ": -67.526,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 180,
+        "scaleX": 1.5,
+        "scaleY": 1,
+        "scaleZ": 1.5
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 581613,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5816": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=15PYVa3MXnbFpr41UfRWdRXwEmyNWVIhH",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1o2bU97CJ1CiyUeMvyF4L7EOYnPEY52xl",
+          "NumHeight": 5,
+          "NumWidth": 8,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "042860",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"neighborhood\":\"Rivertown\",\"type\":\"encounter\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 40.87,
+        "posY": 2.014,
+        "posZ": -60.877,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 180,
+        "scaleX": 1.5,
+        "scaleY": 1,
+        "scaleZ": 1.5
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 581614,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5816": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=15PYVa3MXnbFpr41UfRWdRXwEmyNWVIhH",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1o2bU97CJ1CiyUeMvyF4L7EOYnPEY52xl",
+          "NumHeight": 5,
+          "NumWidth": 8,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "9840c7",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"neighborhood\":\"Rivertown\",\"type\":\"encounter\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 36.528,
+        "posY": 2.014,
+        "posZ": -61.029,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 180,
+        "scaleX": 1.5,
+        "scaleY": 1,
+        "scaleZ": 1.5
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 581615,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5816": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=15PYVa3MXnbFpr41UfRWdRXwEmyNWVIhH",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1o2bU97CJ1CiyUeMvyF4L7EOYnPEY52xl",
+          "NumHeight": 5,
+          "NumWidth": 8,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "ee8422",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"neighborhood\":\"Rivertown\",\"type\":\"encounter\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 32.558,
+        "posY": 2.014,
+        "posZ": -61.179,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 180,
+        "scaleX": 1.5,
+        "scaleY": 1,
+        "scaleZ": 1.5
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 581608,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5816": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=15PYVa3MXnbFpr41UfRWdRXwEmyNWVIhH",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1o2bU97CJ1CiyUeMvyF4L7EOYnPEY52xl",
+          "NumHeight": 5,
+          "NumWidth": 8,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "944d3e",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"neighborhood\":\"Rivertown\",\"type\":\"encounter\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 28.299,
+        "posY": 2.014,
+        "posZ": -61.467,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 180,
+        "scaleX": 1.5,
+        "scaleY": 1,
+        "scaleZ": 1.5
+      },
+      "Value": 0,
+      "XmlUI": ""
+    }
+  ],
+  "CustomDeck": {
+    "5816": {
+      "BackIsHidden": true,
+      "BackURL": "https://drive.google.com/uc?export=view&id=15PYVa3MXnbFpr41UfRWdRXwEmyNWVIhH",
+      "FaceURL": "https://drive.google.com/uc?export=view&id=1o2bU97CJ1CiyUeMvyF4L7EOYnPEY52xl",
+      "NumHeight": 5,
+      "NumWidth": 8,
+      "Type": 0,
+      "UniqueBack": true
+    }
+  },
+  "DeckIDs": [
+    581610,
+    581611,
+    581612,
+    581609,
+    581613,
+    581614,
+    581615,
+    581608
+  ],
+  "Description": "",
+  "DragSelectable": true,
+  "GMNotes": "",
+  "GUID": "0eb4ca",
+  "Grid": true,
+  "GridProjection": false,
+  "Hands": false,
+  "HideWhenFaceDown": true,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "MeasureMovement": false,
+  "Name": "Deck",
+  "Nickname": "",
+  "SidewaysCard": false,
+  "Snap": true,
+  "Sticky": true,
+  "Tooltip": true,
+  "Transform": {
+    "posX": 29.494,
+    "posY": 4.069,
+    "posZ": 74.93,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 180,
+    "scaleX": 1.5,
+    "scaleY": 1,
+    "scaleZ": 1.5
+  },
+  "Value": 0
+}

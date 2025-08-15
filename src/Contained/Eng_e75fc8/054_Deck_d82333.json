@@ -1,0 +1,538 @@
+{
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
+  "ColorDiffuse": {
+    "b": 0.71324,
+    "g": 0.71324,
+    "r": 0.71324
+  },
+  "ContainedObjects": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 572203,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5722": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=1-Q8hjvLtb0bG-Yz6NR_1rpvdiVTE_7R4",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1e5_r2UvK2wnVJfYjGzWaFCksNI3Xozm7",
+          "NumHeight": 5,
+          "NumWidth": 8,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "987f9d",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"locations\":{\"Independence Square\":{\"amount\":1,\"cardtype\":\"item\",\"common\":true,\"price\":\"free\"}},\"neighborhood\":\"Downtown\",\"type\":\"encounter\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 28.826,
+        "posY": 2.014,
+        "posZ": 50.615,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 180,
+        "scaleX": 1.5,
+        "scaleY": 1,
+        "scaleZ": 1.5
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 572205,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5722": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=1-Q8hjvLtb0bG-Yz6NR_1rpvdiVTE_7R4",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1e5_r2UvK2wnVJfYjGzWaFCksNI3Xozm7",
+          "NumHeight": 5,
+          "NumWidth": 8,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "0e42d2",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"locations\":{\"Independence Square\":{\"cardtype\":\"special\",\"name\":\"the moon\"},\"La Bella Luna\":{\"cardtype\":\"blessed\"}},\"neighborhood\":\"Downtown\",\"type\":\"encounter\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 21.167,
+        "posY": 2.014,
+        "posZ": 45.288,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 180,
+        "scaleX": 1.5,
+        "scaleY": 1,
+        "scaleZ": 1.5
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 572206,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5722": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=1-Q8hjvLtb0bG-Yz6NR_1rpvdiVTE_7R4",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1e5_r2UvK2wnVJfYjGzWaFCksNI3Xozm7",
+          "NumHeight": 5,
+          "NumWidth": 8,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "cf55de",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"locations\":{\"Arkham Asylum\":{\"cardtype\":\"blessed\"},\"Independence Square\":{\"amount\":1,\"cardtype\":\"item\",\"common\":true,\"onlydisplay\":true,\"price\":\"half\"}},\"neighborhood\":\"Downtown\",\"type\":\"encounter\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 24.655,
+        "posY": 2.014,
+        "posZ": 45.366,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 180,
+        "scaleX": 1.5,
+        "scaleY": 1,
+        "scaleZ": 1.5
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 572204,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5722": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=1-Q8hjvLtb0bG-Yz6NR_1rpvdiVTE_7R4",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1e5_r2UvK2wnVJfYjGzWaFCksNI3Xozm7",
+          "NumHeight": 5,
+          "NumWidth": 8,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "e85132",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"locations\":{\"Independence Square\":{\"amount\":1,\"cardtype\":\"item\",\"curio\":true,\"onlydisplay\":true,\"price\":\"half\"}},\"neighborhood\":\"Downtown\",\"type\":\"encounter\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 17.202,
+        "posY": 2.014,
+        "posZ": 45.652,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 180,
+        "scaleX": 1.5,
+        "scaleY": 1,
+        "scaleZ": 1.5
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 572202,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5722": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=1-Q8hjvLtb0bG-Yz6NR_1rpvdiVTE_7R4",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1e5_r2UvK2wnVJfYjGzWaFCksNI3Xozm7",
+          "NumHeight": 5,
+          "NumWidth": 8,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "093776",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"locations\":{\"Independence Square\":{\"amount\":\"any\",\"cardtype\":\"item\",\"common\":true,\"onlydisplay\":true,\"price\":\"full\"}},\"neighborhood\":\"Downtown\",\"type\":\"encounter\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 25.064,
+        "posY": 2.014,
+        "posZ": 50.489,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 180,
+        "scaleX": 1.5,
+        "scaleY": 1,
+        "scaleZ": 1.5
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 572201,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5722": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=1-Q8hjvLtb0bG-Yz6NR_1rpvdiVTE_7R4",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1e5_r2UvK2wnVJfYjGzWaFCksNI3Xozm7",
+          "NumHeight": 5,
+          "NumWidth": 8,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "4221cc",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"locations\":{\"Independence Square\":{\"amount\":1,\"cardtype\":\"item\",\"curio\":true,\"price\":\"free\"},\"La Bella Luna\":{\"amount\":1,\"cardtype\":\"ally\"}},\"neighborhood\":\"Downtown\",\"type\":\"encounter\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 21.256,
+        "posY": 2.014,
+        "posZ": 50.531,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 180,
+        "scaleX": 1.5,
+        "scaleY": 1,
+        "scaleZ": 1.5
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 572200,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5722": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=1-Q8hjvLtb0bG-Yz6NR_1rpvdiVTE_7R4",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1e5_r2UvK2wnVJfYjGzWaFCksNI3Xozm7",
+          "NumHeight": 5,
+          "NumWidth": 8,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "ddb977",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"locations\":{\"Arkham Asylum\":{\"cardtype\":\"special\",\"name\":\"daniel chesterfield\"},\"Independence Square\":{\"cardtype\":\"special\",\"name\":\"ace of rods\"}},\"neighborhood\":\"Downtown\",\"type\":\"encounter\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 17.42,
+        "posY": 2.014,
+        "posZ": 51.126,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 180,
+        "scaleX": 1.5,
+        "scaleY": 1,
+        "scaleZ": 1.5
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 572207,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5722": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=1-Q8hjvLtb0bG-Yz6NR_1rpvdiVTE_7R4",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1e5_r2UvK2wnVJfYjGzWaFCksNI3Xozm7",
+          "NumHeight": 5,
+          "NumWidth": 8,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "876927",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"locations\":{\"Independence Square\":{\"cardtype\":\"blessed\"},\"La Bella Luna\":{\"cardtype\":\"special\",\"name\":\"clover club member\"}},\"neighborhood\":\"Downtown\",\"type\":\"encounter\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 28.626,
+        "posY": 2.014,
+        "posZ": 45.269,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 180,
+        "scaleX": 1.5,
+        "scaleY": 1,
+        "scaleZ": 1.5
+      },
+      "Value": 0,
+      "XmlUI": ""
+    }
+  ],
+  "CustomDeck": {
+    "5722": {
+      "BackIsHidden": true,
+      "BackURL": "https://drive.google.com/uc?export=view&id=1-Q8hjvLtb0bG-Yz6NR_1rpvdiVTE_7R4",
+      "FaceURL": "https://drive.google.com/uc?export=view&id=1e5_r2UvK2wnVJfYjGzWaFCksNI3Xozm7",
+      "NumHeight": 5,
+      "NumWidth": 8,
+      "Type": 0,
+      "UniqueBack": true
+    }
+  },
+  "DeckIDs": [
+    572203,
+    572205,
+    572206,
+    572204,
+    572202,
+    572201,
+    572200,
+    572207
+  ],
+  "Description": "",
+  "DragSelectable": true,
+  "GMNotes": "",
+  "GUID": "d82333",
+  "Grid": true,
+  "GridProjection": false,
+  "Hands": false,
+  "HideWhenFaceDown": true,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "MeasureMovement": false,
+  "Name": "Deck",
+  "Nickname": "",
+  "SidewaysCard": false,
+  "Snap": true,
+  "Sticky": true,
+  "Tooltip": true,
+  "Transform": {
+    "posX": 3.29,
+    "posY": 4.069,
+    "posZ": -52.683,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 180,
+    "scaleX": 1.5,
+    "scaleY": 1,
+    "scaleZ": 1.5
+  },
+  "Value": 0
+}

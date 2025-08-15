@@ -1,0 +1,1 @@
+{"investigator": "Minh Thi Phan", "type": "starting", "guaranteed": true}

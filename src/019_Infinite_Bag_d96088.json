@@ -1,0 +1,114 @@
+{
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
+  "ColorDiffuse": {
+    "b": 1,
+    "g": 0.37256,
+    "r": 0.30589
+  },
+  "ContainedObjects": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "b": 0.24868,
+        "g": 0.24868,
+        "r": 0.24912
+      },
+      "CustomImage": {
+        "CustomTile": {
+          "Stackable": false,
+          "Stretch": true,
+          "Thickness": 0.1,
+          "Type": 0
+        },
+        "ImageScalar": 1,
+        "ImageSecondaryURL": "",
+        "ImageURL": "https://drive.google.com/uc?export=view&id=1Y4ZG4efiK6zPck2l9sTduxUg8sU-BBtb",
+        "WidthScale": 0
+      },
+      "CustomUIAssets": [
+        {
+          "Name": "Fonts",
+          "Type": 1,
+          "URL": "https://drive.google.com/uc?export=view&id=18_lFlnSaOFlbNVfE-G-LFqqfptMMkKFS"
+        }
+      ],
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "f50cd9",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "-- Bundled by luabundle {\"version\":\"1.6.0\"}\nlocal __bundle_require, __bundle_loaded, __bundle_register, __bundle_modules = (function(superRequire)\n\tlocal loadingPlaceholder = {[{}] = true}\n\n\tlocal register\n\tlocal modules = {}\n\n\tlocal require\n\tlocal loaded = {}\n\n\tregister = function(name, body)\n\t\tif not modules[name] then\n\t\t\tmodules[name] = body\n\t\tend\n\tend\n\n\trequire = function(name)\n\t\tlocal loadedModule = loaded[name]\n\n\t\tif loadedModule then\n\t\t\tif loadedModule == loadingPlaceholder then\n\t\t\t\treturn nil\n\t\t\tend\n\t\telse\n\t\t\tif not modules[name] then\n\t\t\t\tif not superRequire then\n\t\t\t\t\tlocal identifier = type(name) == 'string' and '\\\"' .. name .. '\\\"' or tostring(name)\n\t\t\t\t\terror('Tried to require ' .. identifier .. ', but no such module has been registered')\n\t\t\t\telse\n\t\t\t\t\treturn superRequire(name)\n\t\t\t\tend\n\t\t\tend\n\n\t\t\tloaded[name] = loadingPlaceholder\n\t\t\tloadedModule = modules[name](require, loaded, register, modules)\n\t\t\tloaded[name] = loadedModule\n\t\tend\n\n\t\treturn loadedModule\n\tend\n\n\treturn require, loaded, register, modules\nend)(nil)\n__bundle_register(\"__root\", function(require, _LOADED, __bundle_register, __bundle_modules)\n--serpent = require(\"util/serpent\")\nlocal isTestMode = false\n\nlocal data = {\n  hp = 0,\n  maxHp = 0,\n  cp = 0,\n  cpHp = 0,\n}\n\nfunction onSave()\n  local saveData = JSON.encode(data)\n  return saveData\nend\n\nfunction onLoad(savedData)\n\n  local sData = parseJson(savedData)\n  if sData then\n    data = sData\n  end\n\n  local buttonHP1 = getButton()\n  buttonHP1.attributes.id = \"btnHP1\"\n  buttonHP1.attributes.onClick = \"clickHp\"\n  buttonHP1.attributes.text = data.hp\n  buttonHP1.attributes.position = \"67 72 -12\"\n  buttonHP1.attributes.rotation = \"0 0 180\"\n\n  local buttonHP2 = getButton()\n  buttonHP2.attributes.id = \"btnHP2\"\n  buttonHP2.attributes.onClick = \"clickHp\"\n  buttonHP2.attributes.text = data.hp\n  buttonHP2.attributes.position = \"-67 72 3\"\n  buttonHP2.attributes.rotation = \"0 180 180\"\n\n  local buttonKill1 = getButton()\n  buttonKill1.attributes.id = \"btnKill1\"\n  buttonKill1.attributes.onClick = \"clickKill\"\n  buttonKill1.attributes.text = \"X\"\n  buttonKill1.attributes.position = \"67 -65 -12\"\n  buttonKill1.attributes.rotation = \"0 0 180\"\n  buttonKill1.attributes.active = data.hp > 0 and data.hp == data.maxHp\n\n  local buttonKill2 = getButton()\n  buttonKill2.attributes.id = \"btnKill2\"\n  buttonKill2.attributes.onClick = \"clickKill\"\n  buttonKill2.attributes.text = \"X\"\n  buttonKill2.attributes.position = \"-67 -65 3\"\n  buttonKill2.attributes.rotation = \"0 180 180\"\n  buttonKill2.attributes.active = data.hp > 0 and data.hp == data.maxHp\n\n  local killText1 = getText()\n  killText1.attributes.id = killText1.attributes.id .. \"1\"\n  killText1.attributes.position = \"67 -69 -12\"\n  killText1.attributes.rotation = \"0 0 180\"\n  killText1.attributes.active = data.hp <= 0 or data.hp ~= data.maxHp\n\n  local killText2 = getText()\n  killText2.attributes.id = killText2.attributes.id .. \"2\"\n  killText2.attributes.position = \"-67 -69 3\"\n  killText2.attributes.rotation = \"0 180 180\"\n  killText2.attributes.active = data.hp <= 0 or data.hp ~= data.maxHp\n\n  self.UI.setXmlTable({buttonHP1, buttonHP2, buttonKill1, buttonKill2, killText1, killText2})\nend\n\nfunction onSave()\n  local saveData = JSON.encode(data)\n  return saveData\nend\n\nfunction setHPMax(params)\n  data.maxHp = params.maxHp\nend\n\n-- UI\n\nfunction getAttributes()\n  return {\n    width = \"300\",\n    height = \"500\",\n    scale = \"0.1 0.1 1\",\n    textColor = \"#e9543b\",\n    fontSize = \"350\",\n    font = \"Fonts/AdonisC\"\n  }\nend\n\nfunction getButton()\n  local attributes = getAttributes()\n  attributes.color = \"clear\"\n  return {\n    tag = \"Button\",\n    attributes = attributes\n  }\nend\n\nfunction getText()\n  local attributes = getAttributes()\n  attributes.id = \"killText\"\n  attributes.text = \"\"\n  attributes.color = \"#e9543b\"\n  attributes.font = \"Fonts/AHRDIcons\"\n  return {\n    tag = \"text\",\n    attributes = attributes\n  }\nend\n\n-- Click\n\nfunction clickKill(player, alt_click)\n  if #self.getAttachments() <= 0 then\n    return\n  end\n  local monster = self.removeAttachment(0)\n\n  if not monster then\n    return\n  end\n  monster.setLock(false)\n  monster.interactable = true\n  self.destruct()\n  Global.call(\"onMonsterKilled\", monster)\nend\n\nfunction clickHp(player, alt_click)\n  if alt_click == \"-1\" then\n    if data.hp >= data.maxHp then\n      return\n    end\n    data.hp = data.hp + 1\n  else\n    if data.hp <= 0 then\n      return\n    end\n    data.hp = data.hp - 1\n  end\n\n\n  self.UI.setAttribute(\"btnHp1\", \"text\", data.hp)\n  self.UI.setAttribute(\"btnHp2\", \"text\", data.hp)\n\n  self.UI.setAttribute(\"btnHp1\", \"textColor\", \"#e9543b\")\n  self.UI.setAttribute(\"btnHp2\", \"textColor\", \"#e9543b\")\n\n  self.UI.setAttribute(\"btnKill1\", \"active\", data.hp == data.maxHp)\n  self.UI.setAttribute(\"btnKill2\", \"active\", data.hp == data.maxHp)\n  self.UI.setAttribute(\"killText1\", \"active\", data.hp ~= data.maxHp)\n  self.UI.setAttribute(\"killText2\", \"active\", data.hp ~= data.maxHp)\n\n  if data.hp == data.maxHp then\n    self.UI.setAttribute(\"btnKill1\", \"textColor\", \"#e9543b\")\n    self.UI.setAttribute(\"btnKill2\", \"textColor\", \"#e9543b\")\n  else\n    self.UI.setAttribute(\"killText1\", \"textColor\", \"#e9543b\")\n    self.UI.setAttribute(\"killText2\", \"textColor\", \"#e9543b\")\n  end\n  local color = self.UI.getAttribute(\"btnHp1\", \"textColor\")\n  if data.hp > 9 then\n    self.UI.setAttribute(\"btnHp1\", \"fontSize\", '220')\n    self.UI.setAttribute(\"btnHp1\", \"textColor\", color)\n    self.UI.setAttribute(\"btnHp2\", \"fontSize\", '220')\n    self.UI.setAttribute(\"btnHp2\", \"textColor\", color)\n  else\n    self.UI.setAttribute(\"btnHp1\", \"fontSize\", '350')\n    self.UI.setAttribute(\"btnHp1\", \"textColor\", color)\n    self.UI.setAttribute(\"btnHp2\", \"fontSize\", '350')\n    self.UI.setAttribute(\"btnHp2\", \"textColor\", color)\n  end\nend\n\nfunction parseJson(memo)\n  if not memo or type(memo) ~= \"string\" then\n    return nil\n  end\n\n  local success, result = pcall(function()\n    return JSON.decode(memo)\n  end)\n\n  if success then\n    return result\n  else\n    return nil\n  end\nend\n\nfunction downCast(obj, dist, offset, multi)\n  if obj == nil then\n    return\n  end\n  local dist = dist or 1\n  local offset = offset or 0\n  local multi = multi or 1\n  local oPos = obj.getPosition()\n  local oBounds = obj.getBoundsNormalized()\n  local oRot = obj.getRotation()\n  local orig = {oPos[1], oPos[2] - dist / 2 - oBounds.size.y / 2 - offset, oPos[3]}\n  local siz = {oBounds.size.x * multi, dist, oBounds.size.z * multi}\n  local orient = {oRot[1], oRot[2], oRot[3]}\n  local hits = Physics.cast({\n    origin = orig,\n    direction = {0, 1, 0},\n    type = 3,\n    size = siz,\n    orientation = orient,\n    max_distance = 0,\n    debug = isTestMode\n  })\n  local hitObjects = {}\n  for i, v in pairs(hits) do\n    if v.hit_object ~= obj then\n      table.insert(hitObjects, v.hit_object)\n    end\n  end\n  return hitObjects\nend\n\nfunction runAfterRest(o, f, f2, n)\n  f = f or function()\n  end -- function to run when resting\n  f2 = f2 or function()\n  end -- function to run when time-out is reached\n  n = n or 5 -- time out delay in seconds\n  Wait.frames(function()\n    Wait.condition(function()\n      if o ~= nil then\n        f(o)\n      end\n    end, function()\n      if o == nil then\n        return true\n      else\n        return o.resting\n      end\n    end, n, function()\n      if o ~= nil then\n        f2(o)\n      end\n    end)\n  end, 1)\nend\nend)\n__bundle_register(\"util/serpent\", function(require, _LOADED, __bundle_register, __bundle_modules)\nlocal n, v = \"serpent\", \"0.303\" -- (C) 2012-18 Paul Kulchenko; MIT License\nlocal c, d = \"Paul Kulchenko\", \"Lua serializer and pretty printer\"\nlocal snum = {[tostring(1/0)]='1/0 --[[math.huge]]',[tostring(-1/0)]='-1/0 --[[-math.huge]]',[tostring(0/0)]='0/0'}\nlocal badtype = {thread = true, userdata = true, cdata = true}\nlocal getmetatable = debug and debug.getmetatable or getmetatable\nlocal pairs = function(t) return next, t end -- avoid using __pairs in Lua 5.2+\nlocal keyword, globals, G = {}, {}, (_G or _ENV)\nfor _,k in ipairs({'and', 'break', 'do', 'else', 'elseif', 'end', 'false',\n  'for', 'function', 'goto', 'if', 'in', 'local', 'nil', 'not', 'or', 'repeat',\n  'return', 'then', 'true', 'until', 'while'}) do keyword[k] = true end\nfor k,v in pairs(G) do globals[v] = k end -- build func to name mapping\nfor _,g in ipairs({'coroutine', 'debug', 'io', 'math', 'string', 'table', 'os'}) do\n  for k,v in pairs(type(G[g]) == 'table' and G[g] or {}) do globals[v] = g..'.'..k end end\n\nlocal function s(t, opts)\n  local name, indent, fatal, maxnum = opts.name, opts.indent, opts.fatal, opts.maxnum\n  local sparse, custom, huge = opts.sparse, opts.custom, not opts.nohuge\n  local space, maxl = (opts.compact and '' or ' '), (opts.maxlevel or math.huge)\n  local maxlen, metatostring = tonumber(opts.maxlength), opts.metatostring\n  local iname, comm = '_'..(name or ''), opts.comment and (tonumber(opts.comment) or math.huge)\n  local numformat = opts.numformat or \"%.17g\"\n  local seen, sref, syms, symn = {}, {'local '..iname..'={}'}, {}, 0\n  local function gensym(val) return '_'..(tostring(tostring(val)):gsub(\"[^%w]\",\"\"):gsub(\"(%d%w+)\",\n    -- tostring(val) is needed because __tostring may return a non-string value\n    function(s) if not syms[s] then symn = symn+1; syms[s] = symn end return tostring(syms[s]) end)) end\n  local function safestr(s) return type(s) == \"number\" and (huge and snum[tostring(s)] or numformat:format(s))\n    or type(s) ~= \"string\" and tostring(s) -- escape NEWLINE/010 and EOF/026\n    or (\"%q\"):format(s):gsub(\"\\010\",\"n\"):gsub(\"\\026\",\"\\\\026\") end\n  -- handle radix changes in some locales\n  if opts.fixradix and (\".1f\"):format(1.2) ~= \"1.2\" then\n    local origsafestr = safestr\n    safestr = function(s) return type(s) == \"number\"\n      and (nohuge and snum[tostring(s)] or numformat:format(s):gsub(\",\",\".\")) or origsafestr(s)\n    end\n  end\n  local function comment(s,l) return comm and (l or 0) < comm and ' --[['..select(2, pcall(tostring, s))..']]' or '' end\n  local function globerr(s,l) return globals[s] and globals[s]..comment(s,l) or not fatal\n    and safestr(select(2, pcall(tostring, s))) or error(\"Can't serialize \"..tostring(s)) end\n  local function safename(path, name) -- generates foo.bar, foo[3], or foo['b a r']\n    local n = name == nil and '' or name\n    local plain = type(n) == \"string\" and n:match(\"^[%l%u_][%w_]*$\") and not keyword[n]\n    local safe = plain and n or '['..safestr(n)..']'\n    return (path or '')..(plain and path and '.' or '')..safe, safe end\n  local alphanumsort = type(opts.sortkeys) == 'function' and opts.sortkeys or function(k, o, n) -- k=keys, o=originaltable, n=padding\n    local maxn, to = tonumber(n) or 12, {number = 'a', string = 'b'}\n    local function padnum(d) return (\"%0\"..tostring(maxn)..\"d\"):format(tonumber(d)) end\n    table.sort(k, function(a,b)\n      -- sort numeric keys first: k[key] is not nil for numerical keys\n      return (k[a] ~= nil and 0 or to[type(a)] or 'z')..(tostring(a):gsub(\"%d+\",padnum))\n           < (k[b] ~= nil and 0 or to[type(b)] or 'z')..(tostring(b):gsub(\"%d+\",padnum)) end) end\n  local function val2str(t, name, indent, insref, path, plainindex, level)\n    local ttype, level, mt = type(t), (level or 0), getmetatable(t)\n    local spath, sname = safename(path, name)\n    local tag = plainindex and\n      ((type(name) == \"number\") and '' or name..space..'='..space) or\n      (name ~= nil and sname..space..'='..space or '')\n    if seen[t] then -- already seen this element\n      sref[#sref+1] = spath..space..'='..space..seen[t]\n      return tag..'nil'..comment('ref', level)\n    end\n    -- protect from those cases where __tostring may fail\n    if type(mt) == 'table' and metatostring ~= false then\n      local to, tr = pcall(function() return mt.__tostring(t) end)\n      local so, sr = pcall(function() return mt.__serialize(t) end)\n      if (to or so) then -- knows how to serialize itself\n        seen[t] = insref or spath\n        t = so and sr or tr\n        ttype = type(t)\n      end -- new value falls through to be serialized\n    end\n    if ttype == \"table\" then\n      if level >= maxl then return tag..'{}'..comment('maxlvl', level) end\n      seen[t] = insref or spath\n      if next(t) == nil then return tag..'{}'..comment(t, level) end -- table empty\n      if maxlen and maxlen < 0 then return tag..'{}'..comment('maxlen', level) end\n      local maxn, o, out = math.min(#t, maxnum or #t), {}, {}\n      for key = 1, maxn do o[key] = key end\n      if not maxnum or #o < maxnum then\n        local n = #o -- n = n + 1; o[n] is much faster than o[#o+1] on large tables\n        for key in pairs(t) do\n          if o[key] ~= key then n = n + 1; o[n] = key end\n        end\n      end\n      if maxnum and #o > maxnum then o[maxnum+1] = nil end\n      if opts.sortkeys and #o > maxn then alphanumsort(o, t, opts.sortkeys) end\n      local sparse = sparse and #o > maxn -- disable sparsness if only numeric keys (shorter output)\n      for n, key in ipairs(o) do\n        local value, ktype, plainindex = t[key], type(key), n <= maxn and not sparse\n        if opts.valignore and opts.valignore[value] -- skip ignored values; do nothing\n        or opts.keyallow and not opts.keyallow[key]\n        or opts.keyignore and opts.keyignore[key]\n        or opts.valtypeignore and opts.valtypeignore[type(value)] -- skipping ignored value types\n        or sparse and value == nil then -- skipping nils; do nothing\n        elseif ktype == 'table' or ktype == 'function' or badtype[ktype] then\n          if not seen[key] and not globals[key] then\n            sref[#sref+1] = 'placeholder'\n            local sname = safename(iname, gensym(key)) -- iname is table for local variables\n            sref[#sref] = val2str(key,sname,indent,sname,iname,true)\n          end\n          sref[#sref+1] = 'placeholder'\n          local path = seen[t]..'['..tostring(seen[key] or globals[key] or gensym(key))..']'\n          sref[#sref] = path..space..'='..space..tostring(seen[value] or val2str(value,nil,indent,path))\n        else\n          out[#out+1] = val2str(value,key,indent,nil,seen[t],plainindex,level+1)\n          if maxlen then\n            maxlen = maxlen - #out[#out]\n            if maxlen < 0 then break end\n          end\n        end\n      end\n      local prefix = string.rep(indent or '', level)\n      local head = indent and '{\\n'..prefix..indent or '{'\n      local body = table.concat(out, ','..(indent and '\\n'..prefix..indent or space))\n      local tail = indent and \"\\n\"..prefix..'}' or '}'\n      return (custom and custom(tag,head,body,tail,level) or tag..head..body..tail)..comment(t, level)\n    elseif badtype[ttype] then\n      seen[t] = insref or spath\n      return tag..globerr(t, level)\n    elseif ttype == 'function' then\n      seen[t] = insref or spath\n      if opts.nocode then return tag..\"function() --[[..skipped..]] end\"..comment(t, level) end\n      local ok, res = pcall(string.dump, t)\n      local func = ok and \"((loadstring or load)(\"..safestr(res)..\",'@serialized'))\"..comment(t, level)\n      return tag..(func or globerr(t, level))\n    else return tag..safestr(t) end -- handle all other types\n  end\n  local sepr = indent and \"\\n\" or \";\"..space\n  local body = val2str(t, name, indent) -- this call also populates sref\n  local tail = #sref>1 and table.concat(sref, sepr)..sepr or ''\n  local warn = opts.comment and #sref>1 and space..\"--[[incomplete output with shared/self-references skipped]]\" or ''\n  return not name and body..warn or \"do local \"..body..sepr..tail..\"return \"..name..sepr..\"end\"\nend\n\nlocal function deserialize(data, opts)\n  local env = (opts and opts.safe == false) and G\n    or setmetatable({}, {\n        __index = function(t,k) return t end,\n        __call = function(t,...) error(\"cannot call functions\") end\n      })\n  local f, res = (loadstring or load)('return '..data, nil, nil, env)\n  if not f then f, res = (loadstring or load)(data, nil, nil, env) end\n  if not f then return f, res end\n  if setfenv then setfenv(f, env) end\n  return pcall(f)\nend\n\nlocal function merge(a, b) if b then for k,v in pairs(b) do a[k] = v end end; return a; end\nreturn { _NAME = n, _COPYRIGHT = c, _DESCRIPTION = d, _VERSION = v, serialize = s,\n  load = deserialize,\n  dump = function(a, opts) return s(a, merge({name = '_', compact = true, sparse = true}, opts)) end,\n  line = function(a, opts) return s(a, merge({sortkeys = true, comment = true}, opts)) end,\n  block = function(a, opts) return s(a, merge({indent = '  ', sortkeys = true, comment = true}, opts)) end,\n  tts = function(a, opts)\n    return s(a, merge({\n      indent = '  ',\n      sortkeys = true,\n      comment = false,\n      metatostring = false,\n    },\n    opts))\n  end\n}\nend)\nreturn __bundle_require(\"__root\")",
+      "LuaScriptState": "{\"hp\":0,\"maxHp\":1}",
+      "MeasureMovement": false,
+      "Memo": "Monster Mat",
+      "Name": "Custom_Tile",
+      "Nickname": "Monster Mat",
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "monster_mat"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": -37.064,
+        "posY": 4.329,
+        "posZ": -5.246,
+        "rotX": 1,
+        "rotY": 180,
+        "rotZ": 178,
+        "scaleX": 1.7,
+        "scaleY": 1,
+        "scaleZ": 1.7
+      },
+      "Value": 0,
+      "XmlUI": ""
+    }
+  ],
+  "Description": "",
+  "DragSelectable": true,
+  "GMNotes": "",
+  "GUID": "d96088",
+  "Grid": true,
+  "GridProjection": false,
+  "Hands": false,
+  "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "MaterialIndex": -1,
+  "MeasureMovement": false,
+  "MeshIndex": -1,
+  "Name": "Infinite_Bag",
+  "Nickname": "",
+  "Snap": true,
+  "Sticky": true,
+  "Tooltip": true,
+  "Transform": {
+    "posX": -35.96,
+    "posY": 2.183,
+    "posZ": -4.76,
+    "rotX": 0,
+    "rotY": 0,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+  },
+  "Value": 0
+}

@@ -1,0 +1,1 @@
+{"hp":3,"monstertype":["Human","Cultist"],"name":"Billy Cooper","remnant":false,"type":"Monster"}

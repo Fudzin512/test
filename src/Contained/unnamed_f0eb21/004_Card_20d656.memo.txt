@@ -1,0 +1,1 @@
+{"name":"deputy of arkham","type":"special"}

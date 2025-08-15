@@ -1,0 +1,1 @@
+{"locations":{"Arkham Asylum":{"dooms":1},"Independence Square":{"dooms":1}},"name":"EotD","neighborhood":"Downtown","number":3,"type":"Event"}

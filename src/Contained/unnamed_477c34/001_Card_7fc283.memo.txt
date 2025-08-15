@@ -1,0 +1,1 @@
+{"neighborhood":"Miskatonic University","type":"encounter"}

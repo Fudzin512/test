@@ -1,0 +1,1 @@
+{"investigator": "Dexter Drake", "type": "starting", "guaranteed": true}

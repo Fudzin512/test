@@ -1,0 +1,243 @@
+{
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "AttachedSnapPoints": [
+    {
+      "Position": {
+        "x": -0.54,
+        "y": 0.2,
+        "z": -0.034
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Tags": [
+        "item_mat"
+      ]
+    },
+    {
+      "Position": {
+        "x": -1.609,
+        "y": 0.2,
+        "z": -0.034
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Tags": [
+        "item_mat"
+      ]
+    },
+    {
+      "Position": {
+        "x": -2.688,
+        "y": 0.2,
+        "z": -0.035
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Tags": [
+        "item_mat"
+      ]
+    },
+    {
+      "Position": {
+        "x": 0.54,
+        "y": 0.2,
+        "z": -0.034
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Tags": [
+        "item_mat"
+      ]
+    },
+    {
+      "Position": {
+        "x": 1.609,
+        "y": 0.2,
+        "z": -0.034
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Tags": [
+        "item_mat"
+      ]
+    },
+    {
+      "Position": {
+        "x": 2.688,
+        "y": 0.2,
+        "z": -0.034
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Tags": [
+        "item_mat"
+      ]
+    },
+    {
+      "Position": {
+        "x": 2.688,
+        "y": 0.2,
+        "z": -0.176
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Tags": [
+        "item_magnet"
+      ]
+    },
+    {
+      "Position": {
+        "x": 1.609,
+        "y": 0.2,
+        "z": -0.176
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Tags": [
+        "item_magnet"
+      ]
+    },
+    {
+      "Position": {
+        "x": 0.532,
+        "y": 0.2,
+        "z": -0.177
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Tags": [
+        "item_magnet"
+      ]
+    },
+    {
+      "Position": {
+        "x": -0.54,
+        "y": 0.2,
+        "z": -0.177
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Tags": [
+        "item_magnet"
+      ]
+    },
+    {
+      "Position": {
+        "x": -1.609,
+        "y": 0.2,
+        "z": -0.177
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Tags": [
+        "item_magnet"
+      ]
+    },
+    {
+      "Position": {
+        "x": -2.688,
+        "y": 0.2,
+        "z": -0.177
+      },
+      "Rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Tags": [
+        "item_magnet"
+      ]
+    }
+  ],
+  "Autoraise": true,
+  "ColorDiffuse": {
+    "b": 0.24999,
+    "g": 0.24999,
+    "r": 0.24999
+  },
+  "CustomImage": {
+    "CustomTile": {
+      "Stackable": false,
+      "Stretch": true,
+      "Thickness": 0.2,
+      "Type": 0
+    },
+    "ImageScalar": 1,
+    "ImageSecondaryURL": "",
+    "ImageURL": "https://drive.google.com/uc?export=view&id=1MprDIapt9_jwBuvQC9BM23HdyEEz0VC5",
+    "WidthScale": 0
+  },
+  "CustomUIAssets": [
+    {
+      "Name": "cards_icon",
+      "Type": 0,
+      "URL": "https://drive.google.com/uc?export=view&id=1P_bTtQ38TT0v5Fm1s632XzyV7KHLPa_s"
+    }
+  ],
+  "Description": "",
+  "DragSelectable": true,
+  "GMNotes": "",
+  "GUID": "8391f2",
+  "Grid": true,
+  "GridProjection": false,
+  "Hands": false,
+  "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": true,
+  "MeasureMovement": false,
+  "Name": "Custom_Tile",
+  "Nickname": "Items Mat",
+  "Snap": true,
+  "Sticky": true,
+  "Tooltip": true,
+  "Transform": {
+    "posX": 105.84,
+    "posY": 1,
+    "posZ": 82.646,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 2.02,
+    "scaleY": 1,
+    "scaleZ": 2.01
+  },
+  "Value": 0
+}

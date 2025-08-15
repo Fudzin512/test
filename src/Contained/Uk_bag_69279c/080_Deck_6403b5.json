@@ -1,0 +1,1498 @@
+{
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
+  "ColorDiffuse": {
+    "b": 0.71324,
+    "g": 0.71324,
+    "r": 0.71324
+  },
+  "ContainedObjects": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 570600,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5706": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=14JiycWWJOEzT4V1GDwvuM7xIMBRjCMDM",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1-Wz1e8R5A-IYrsiECqvawvF3XZaATbeF",
+          "NumHeight": 4,
+          "NumWidth": 6,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "c54d8c",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"locations\":{\"Observatory\":{\"dooms\":1}},\"name\":\"VoT\",\"neighborhood\":\"Miskatonic University\",\"number\":1,\"type\":\"Event\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 44.387,
+        "posY": 2.014,
+        "posZ": 50.091,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1.5,
+        "scaleY": 1,
+        "scaleZ": 1.5
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 570601,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5706": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=14JiycWWJOEzT4V1GDwvuM7xIMBRjCMDM",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1-Wz1e8R5A-IYrsiECqvawvF3XZaATbeF",
+          "NumHeight": 4,
+          "NumWidth": 6,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "9d7ff1",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"locations\":{\"Observatory\":{\"dooms\":1}},\"name\":\"VoT\",\"neighborhood\":\"Miskatonic University\",\"number\":2,\"type\":\"Event\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 44.061,
+        "posY": 2.049,
+        "posZ": 50.288,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1.5,
+        "scaleY": 1,
+        "scaleZ": 1.5
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 570602,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5706": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=14JiycWWJOEzT4V1GDwvuM7xIMBRjCMDM",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1-Wz1e8R5A-IYrsiECqvawvF3XZaATbeF",
+          "NumHeight": 4,
+          "NumWidth": 6,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "2b8070",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"locations\":{\"Orne Library\":{\"dooms\":2}},\"name\":\"VoT\",\"neighborhood\":\"Miskatonic University\",\"number\":3,\"type\":\"Event\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 44.378,
+        "posY": 2.083,
+        "posZ": 50.137,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1.5,
+        "scaleY": 1,
+        "scaleZ": 1.5
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 570603,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5706": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=14JiycWWJOEzT4V1GDwvuM7xIMBRjCMDM",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1-Wz1e8R5A-IYrsiECqvawvF3XZaATbeF",
+          "NumHeight": 4,
+          "NumWidth": 6,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "db85f3",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"locations\":{\"Orne Library\":{\"dooms\":1}},\"name\":\"VoT\",\"neighborhood\":\"Miskatonic University\",\"number\":4,\"type\":\"Event\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 44.156,
+        "posY": 2.093,
+        "posZ": 50.192,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1.5,
+        "scaleY": 1,
+        "scaleZ": 1.5
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 570604,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5706": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=14JiycWWJOEzT4V1GDwvuM7xIMBRjCMDM",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1-Wz1e8R5A-IYrsiECqvawvF3XZaATbeF",
+          "NumHeight": 4,
+          "NumWidth": 6,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "0788c7",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"locations\":{\"Science Building\":{\"dooms\":1}},\"name\":\"VoT\",\"neighborhood\":\"Miskatonic University\",\"number\":5,\"type\":\"Event\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 44.082,
+        "posY": 2.102,
+        "posZ": 49.676,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1.5,
+        "scaleY": 1,
+        "scaleZ": 1.5
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 570605,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5706": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=14JiycWWJOEzT4V1GDwvuM7xIMBRjCMDM",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1-Wz1e8R5A-IYrsiECqvawvF3XZaATbeF",
+          "NumHeight": 4,
+          "NumWidth": 6,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "5a71ec",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"locations\":{\"Arkham Advertiser\":{\"dooms\":1}},\"name\":\"VoT\",\"neighborhood\":\"Northside\",\"number\":6,\"type\":\"Event\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 44.827,
+        "posY": 2.117,
+        "posZ": 50.699,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1.5,
+        "scaleY": 1,
+        "scaleZ": 1.5
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 570606,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5706": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=14JiycWWJOEzT4V1GDwvuM7xIMBRjCMDM",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1-Wz1e8R5A-IYrsiECqvawvF3XZaATbeF",
+          "NumHeight": 4,
+          "NumWidth": 6,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "1c1ab8",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"locations\":{\"Arkham Advertiser\":{\"dooms\":1}},\"name\":\"VoT\",\"neighborhood\":\"Northside\",\"number\":7,\"type\":\"Event\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 45.096,
+        "posY": 2.126,
+        "posZ": 50.416,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1.5,
+        "scaleY": 1,
+        "scaleZ": 1.5
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 570607,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5706": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=14JiycWWJOEzT4V1GDwvuM7xIMBRjCMDM",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1-Wz1e8R5A-IYrsiECqvawvF3XZaATbeF",
+          "NumHeight": 4,
+          "NumWidth": 6,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "a983ed",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"locations\":{\"Curiositie Shoppe\":{\"dooms\":2}},\"name\":\"VoT\",\"neighborhood\":\"Northside\",\"number\":8,\"type\":\"Event\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 45.067,
+        "posY": 2.131,
+        "posZ": 51.347,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1.5,
+        "scaleY": 1,
+        "scaleZ": 1.5
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 570608,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5706": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=14JiycWWJOEzT4V1GDwvuM7xIMBRjCMDM",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1-Wz1e8R5A-IYrsiECqvawvF3XZaATbeF",
+          "NumHeight": 4,
+          "NumWidth": 6,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "d53e36",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"locations\":{\"Curiositie Shoppe\":{\"dooms\":1}},\"name\":\"VoT\",\"neighborhood\":\"Northside\",\"number\":9,\"type\":\"Event\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 44.966,
+        "posY": 2.141,
+        "posZ": 50.44,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1.5,
+        "scaleY": 1,
+        "scaleZ": 1.5
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 570609,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5706": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=14JiycWWJOEzT4V1GDwvuM7xIMBRjCMDM",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1-Wz1e8R5A-IYrsiECqvawvF3XZaATbeF",
+          "NumHeight": 4,
+          "NumWidth": 6,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "446cfb",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"locations\":{\"Train Station\":{\"dooms\":1}},\"name\":\"VoT\",\"neighborhood\":\"Northside\",\"number\":10,\"type\":\"Event\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 45.025,
+        "posY": 2.155,
+        "posZ": 50.404,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1.5,
+        "scaleY": 1,
+        "scaleZ": 1.5
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 570610,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5706": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=14JiycWWJOEzT4V1GDwvuM7xIMBRjCMDM",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1-Wz1e8R5A-IYrsiECqvawvF3XZaATbeF",
+          "NumHeight": 4,
+          "NumWidth": 6,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "43dc7f",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"locations\":{\"Train Station\":{\"dooms\":1}},\"name\":\"VoT\",\"neighborhood\":\"Northside\",\"number\":11,\"type\":\"Event\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 44.717,
+        "posY": 2.16,
+        "posZ": 50.197,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1.5,
+        "scaleY": 1,
+        "scaleZ": 1.5
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 570611,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5706": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=14JiycWWJOEzT4V1GDwvuM7xIMBRjCMDM",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1-Wz1e8R5A-IYrsiECqvawvF3XZaATbeF",
+          "NumHeight": 4,
+          "NumWidth": 6,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "218ee1",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"locations\":{\"Black Cave\":{\"dooms\":2}},\"name\":\"VoT\",\"neighborhood\":\"Rivertown\",\"number\":12,\"type\":\"Event\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 44.562,
+        "posY": 2.168,
+        "posZ": 50.597,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1.5,
+        "scaleY": 1,
+        "scaleZ": 1.5
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 570612,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5706": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=14JiycWWJOEzT4V1GDwvuM7xIMBRjCMDM",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1-Wz1e8R5A-IYrsiECqvawvF3XZaATbeF",
+          "NumHeight": 4,
+          "NumWidth": 6,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "6a407c",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"locations\":{\"Black Cave\":{\"dooms\":1}},\"name\":\"VoT\",\"neighborhood\":\"Rivertown\",\"number\":13,\"type\":\"Event\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 44.42,
+        "posY": 2.179,
+        "posZ": 50.205,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1.5,
+        "scaleY": 1,
+        "scaleZ": 1.5
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 570613,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5706": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=14JiycWWJOEzT4V1GDwvuM7xIMBRjCMDM",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1-Wz1e8R5A-IYrsiECqvawvF3XZaATbeF",
+          "NumHeight": 4,
+          "NumWidth": 6,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "43984e",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"locations\":{\"Black Cave\":{\"dooms\":1}},\"name\":\"VoT\",\"neighborhood\":\"Rivertown\",\"number\":14,\"type\":\"Event\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 44.353,
+        "posY": 2.189,
+        "posZ": 50.501,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1.5,
+        "scaleY": 1,
+        "scaleZ": 1.5
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 570614,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5706": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=14JiycWWJOEzT4V1GDwvuM7xIMBRjCMDM",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1-Wz1e8R5A-IYrsiECqvawvF3XZaATbeF",
+          "NumHeight": 4,
+          "NumWidth": 6,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "629f60",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"locations\":{\"Graveyard\":{\"dooms\":1}},\"name\":\"VoT\",\"neighborhood\":\"Rivertown\",\"number\":15,\"type\":\"Event\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 44.421,
+        "posY": 2.199,
+        "posZ": 50.202,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1.5,
+        "scaleY": 1,
+        "scaleZ": 1.5
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 570615,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5706": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=14JiycWWJOEzT4V1GDwvuM7xIMBRjCMDM",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1-Wz1e8R5A-IYrsiECqvawvF3XZaATbeF",
+          "NumHeight": 4,
+          "NumWidth": 6,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "b22e6f",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"locations\":{\"Graveyard\":{\"dooms\":1}},\"name\":\"VoT\",\"neighborhood\":\"Rivertown\",\"number\":16,\"type\":\"Event\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 44.625,
+        "posY": 2.208,
+        "posZ": 50.528,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1.5,
+        "scaleY": 1,
+        "scaleZ": 1.5
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 570616,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5706": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=14JiycWWJOEzT4V1GDwvuM7xIMBRjCMDM",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1-Wz1e8R5A-IYrsiECqvawvF3XZaATbeF",
+          "NumHeight": 4,
+          "NumWidth": 6,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "a48b77",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"locations\":{\"Historical Society\":{\"dooms\":1}},\"name\":\"VoT\",\"neighborhood\":\"Southside\",\"number\":17,\"type\":\"Event\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 44.57,
+        "posY": 2.218,
+        "posZ": 50.732,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1.5,
+        "scaleY": 1,
+        "scaleZ": 1.5
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 570617,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5706": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=14JiycWWJOEzT4V1GDwvuM7xIMBRjCMDM",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1-Wz1e8R5A-IYrsiECqvawvF3XZaATbeF",
+          "NumHeight": 4,
+          "NumWidth": 6,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "fd4ab0",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"locations\":{\"Historical Society\":{\"dooms\":1}},\"name\":\"VoT\",\"neighborhood\":\"Southside\",\"number\":18,\"type\":\"Event\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 45.061,
+        "posY": 2.228,
+        "posZ": 51.083,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1.5,
+        "scaleY": 1,
+        "scaleZ": 1.5
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 570618,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5706": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=14JiycWWJOEzT4V1GDwvuM7xIMBRjCMDM",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1-Wz1e8R5A-IYrsiECqvawvF3XZaATbeF",
+          "NumHeight": 4,
+          "NumWidth": 6,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "4d45ff",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"locations\":{\"Ma's Boarding House\":{\"dooms\":1}},\"name\":\"VoT\",\"neighborhood\":\"Southside\",\"number\":19,\"type\":\"Event\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 3.954,
+        "posY": 2.014,
+        "posZ": 54.635,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 180,
+        "scaleX": 1.5,
+        "scaleY": 1,
+        "scaleZ": 1.5
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 570619,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5706": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=14JiycWWJOEzT4V1GDwvuM7xIMBRjCMDM",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1-Wz1e8R5A-IYrsiECqvawvF3XZaATbeF",
+          "NumHeight": 4,
+          "NumWidth": 6,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "1f708f",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"locations\":{\"Ma's Boarding House\":{\"dooms\":1}},\"name\":\"VoT\",\"neighborhood\":\"Southside\",\"number\":20,\"type\":\"Event\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 3.672,
+        "posY": 2.014,
+        "posZ": 54.648,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 180,
+        "scaleX": 1.5,
+        "scaleY": 1,
+        "scaleZ": 1.5
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 570620,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5706": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=14JiycWWJOEzT4V1GDwvuM7xIMBRjCMDM",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1-Wz1e8R5A-IYrsiECqvawvF3XZaATbeF",
+          "NumHeight": 4,
+          "NumWidth": 6,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "777ccb",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"locations\":{\"Hangman's Hill\":{\"dooms\":1}},\"name\":\"VoT\",\"neighborhood\":\"Uptown\",\"number\":21,\"type\":\"Event\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 3.989,
+        "posY": 2.014,
+        "posZ": 54.632,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 180,
+        "scaleX": 1.5,
+        "scaleY": 1,
+        "scaleZ": 1.5
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 570621,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5706": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=14JiycWWJOEzT4V1GDwvuM7xIMBRjCMDM",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1-Wz1e8R5A-IYrsiECqvawvF3XZaATbeF",
+          "NumHeight": 4,
+          "NumWidth": 6,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "c50c40",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"locations\":{\"Hangman's Hill\":{\"dooms\":1}},\"name\":\"VoT\",\"neighborhood\":\"Uptown\",\"number\":22,\"type\":\"Event\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 3.572,
+        "posY": 2.014,
+        "posZ": 54.644,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 180,
+        "scaleX": 1.5,
+        "scaleY": 1,
+        "scaleZ": 1.5
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 570622,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5706": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=14JiycWWJOEzT4V1GDwvuM7xIMBRjCMDM",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1-Wz1e8R5A-IYrsiECqvawvF3XZaATbeF",
+          "NumHeight": 4,
+          "NumWidth": 6,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "80ae6e",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"locations\":{\"Ye Olde Magick Shoppe\":{\"dooms\":2}},\"name\":\"VoT\",\"neighborhood\":\"Uptown\",\"number\":23,\"type\":\"Event\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 4.269,
+        "posY": 2.014,
+        "posZ": 54.64,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 180,
+        "scaleX": 1.5,
+        "scaleY": 1,
+        "scaleZ": 1.5
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 570623,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5706": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=14JiycWWJOEzT4V1GDwvuM7xIMBRjCMDM",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1-Wz1e8R5A-IYrsiECqvawvF3XZaATbeF",
+          "NumHeight": 4,
+          "NumWidth": 6,
+          "Type": 0,
+          "UniqueBack": true
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "e8b5c4",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"locations\":{\"Ye Olde Magick Shoppe\":{\"dooms\":1}},\"name\":\"VoT\",\"neighborhood\":\"Uptown\",\"number\":24,\"type\":\"Event\"}",
+      "Name": "Card",
+      "Nickname": "",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 3.539,
+        "posY": 2.014,
+        "posZ": 54.639,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 180,
+        "scaleX": 1.5,
+        "scaleY": 1,
+        "scaleZ": 1.5
+      },
+      "Value": 0,
+      "XmlUI": ""
+    }
+  ],
+  "CustomDeck": {
+    "5706": {
+      "BackIsHidden": true,
+      "BackURL": "https://drive.google.com/uc?export=view&id=14JiycWWJOEzT4V1GDwvuM7xIMBRjCMDM",
+      "FaceURL": "https://drive.google.com/uc?export=view&id=1-Wz1e8R5A-IYrsiECqvawvF3XZaATbeF",
+      "NumHeight": 4,
+      "NumWidth": 6,
+      "Type": 0,
+      "UniqueBack": true
+    }
+  },
+  "DeckIDs": [
+    570600,
+    570601,
+    570602,
+    570603,
+    570604,
+    570605,
+    570606,
+    570607,
+    570608,
+    570609,
+    570610,
+    570611,
+    570612,
+    570613,
+    570614,
+    570615,
+    570616,
+    570617,
+    570618,
+    570619,
+    570620,
+    570621,
+    570622,
+    570623
+  ],
+  "Description": "",
+  "DragSelectable": true,
+  "GMNotes": "",
+  "GUID": "6403b5",
+  "Grid": true,
+  "GridProjection": false,
+  "Hands": false,
+  "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "MeasureMovement": false,
+  "Name": "Deck",
+  "Nickname": "",
+  "SidewaysCard": false,
+  "Snap": true,
+  "Sticky": true,
+  "Tooltip": true,
+  "Transform": {
+    "posX": -62.057,
+    "posY": 4.146,
+    "posZ": 47.411,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 180,
+    "scaleX": 1.5,
+    "scaleY": 1,
+    "scaleZ": 1.5
+  },
+  "Value": 0
+}

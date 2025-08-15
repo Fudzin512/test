@@ -1,0 +1,1105 @@
+{
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
+  "Bag": {
+    "Order": 0
+  },
+  "ColorDiffuse": {
+    "b": 0,
+    "g": 0.36652,
+    "r": 0.70588
+  },
+  "ContainedObjects": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "b": 0.68902,
+        "g": 0.73851,
+        "r": 0.777
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "https://drive.google.com/uc?export=view&id=1Na2oHwaft4DRTps6BUbIpxXbxp5buKiZ",
+        "MaterialIndex": 3,
+        "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1820021533259458573/9BE95E7760E7D2D53BC31BE50BEBFF3E84E3F2A7/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "037b83",
+      "Grid": false,
+      "GridProjection": false,
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "Marie Lambeau",
+      "Name": "Custom_Model",
+      "Nickname": "Marie Lambeau",
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 7.307,
+        "posY": 4.069,
+        "posZ": 72.633,
+        "rotX": 1,
+        "rotY": 180,
+        "rotZ": 359,
+        "scaleX": 0.53,
+        "scaleY": 0.53,
+        "scaleZ": 0.53
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "b": 0.6902,
+        "g": 0.73726,
+        "r": 0.77647
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "https://drive.google.com/uc?export=view&id=1YcRW1tlSYiikcWe6KunMPJJS8BWU-8IW",
+        "MaterialIndex": 3,
+        "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1820021533259458573/9BE95E7760E7D2D53BC31BE50BEBFF3E84E3F2A7/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "f1250a",
+      "Grid": false,
+      "GridProjection": false,
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "Daniela Reyes",
+      "Name": "Custom_Model",
+      "Nickname": "Daniela Reyes",
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 3.802,
+        "posY": 4.067,
+        "posZ": 76.054,
+        "rotX": 1,
+        "rotY": 180,
+        "rotZ": 359,
+        "scaleX": 0.53,
+        "scaleY": 0.53,
+        "scaleZ": 0.53
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "b": 0.6902,
+        "g": 0.73726,
+        "r": 0.77647
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "https://drive.google.com/uc?export=view&id=1Xaj1VvpIBAdMI92nFFcIVWIgIQb6c68u",
+        "MaterialIndex": 3,
+        "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1820021533259458573/9BE95E7760E7D2D53BC31BE50BEBFF3E84E3F2A7/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "f540d9",
+      "Grid": false,
+      "GridProjection": false,
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "Agnes Baker",
+      "Name": "Custom_Model",
+      "Nickname": "Agnes Baker",
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 6.44,
+        "posY": 4.043,
+        "posZ": 77.718,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 0.53,
+        "scaleY": 0.53,
+        "scaleZ": 0.53
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "b": 0.6902,
+        "g": 0.73726,
+        "r": 0.77647
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "https://drive.google.com/uc?export=view&id=12crjrnrwnoomgdT0PFArIPJSeqkscWF7",
+        "MaterialIndex": 3,
+        "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1820021533259458573/9BE95E7760E7D2D53BC31BE50BEBFF3E84E3F2A7/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "7d50da",
+      "Grid": false,
+      "GridProjection": false,
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "Dexter Drake",
+      "Name": "Custom_Model",
+      "Nickname": "Dexter Drake",
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 6.73,
+        "posY": 4.043,
+        "posZ": 75.441,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 0.53,
+        "scaleY": 0.53,
+        "scaleZ": 0.53
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "b": 0.6902,
+        "g": 0.73726,
+        "r": 0.77647
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "https://drive.google.com/uc?export=view&id=1mLQzxS_ZQXouLE82gLX7kjQW7kmd7x7m",
+        "MaterialIndex": 3,
+        "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1820021533259458573/9BE95E7760E7D2D53BC31BE50BEBFF3E84E3F2A7/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "2cbba4",
+      "Grid": false,
+      "GridProjection": false,
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "Calvin Wright",
+      "Name": "Custom_Model",
+      "Nickname": "Calvin Wright",
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 5.047,
+        "posY": 4.043,
+        "posZ": 73.735,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 0.53,
+        "scaleY": 0.53,
+        "scaleZ": 0.53
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "b": 0.68902,
+        "g": 0.73851,
+        "r": 0.777
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "https://drive.google.com/uc?export=view&id=1YXzcSifPafG4yWCTJrXONq6aCzvolINj",
+        "MaterialIndex": 3,
+        "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1820021533259458573/9BE95E7760E7D2D53BC31BE50BEBFF3E84E3F2A7/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "54b9d3",
+      "Grid": false,
+      "GridProjection": false,
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "Jenny Barnes",
+      "Name": "Custom_Model",
+      "Nickname": "Jenny Barnes",
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 6.623,
+        "posY": 4.043,
+        "posZ": 79.481,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 0.53,
+        "scaleY": 0.53,
+        "scaleZ": 0.53
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "b": 0.68902,
+        "g": 0.73851,
+        "r": 0.777
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "https://drive.google.com/uc?export=view&id=1IRC9WspM8WZh5t4n16NKh9f0-I5Ah2ru",
+        "MaterialIndex": 3,
+        "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1820021533259458573/9BE95E7760E7D2D53BC31BE50BEBFF3E84E3F2A7/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "962933",
+      "Grid": false,
+      "GridProjection": false,
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "Michael McGlen",
+      "Name": "Custom_Model",
+      "Nickname": "Michael McGlen",
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 9.282,
+        "posY": 4.043,
+        "posZ": 73.927,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 0.53,
+        "scaleY": 0.53,
+        "scaleZ": 0.53
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "b": 0.68902,
+        "g": 0.73851,
+        "r": 0.777
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "https://drive.google.com/uc?export=view&id=1UjyR4sudHK3EamWrX4N6gfhYW7qgbuG2",
+        "MaterialIndex": 3,
+        "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1820021533259458573/9BE95E7760E7D2D53BC31BE50BEBFF3E84E3F2A7/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "c65cfd",
+      "Grid": false,
+      "GridProjection": false,
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "Minh Thi Phan",
+      "Name": "Custom_Model",
+      "Nickname": "Minh Thi Phan",
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 2.753,
+        "posY": 4.043,
+        "posZ": 78.612,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 0.53,
+        "scaleY": 0.53,
+        "scaleZ": 0.53
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "b": 0.68902,
+        "g": 0.73851,
+        "r": 0.777
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "https://drive.google.com/uc?export=view&id=1p_OCAsfeTKz0f09BJU84FR8PqjMyUh0p",
+        "MaterialIndex": 3,
+        "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1820021533259458573/9BE95E7760E7D2D53BC31BE50BEBFF3E84E3F2A7/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "d4116d",
+      "Grid": false,
+      "GridProjection": false,
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "Norman Withers",
+      "Name": "Custom_Model",
+      "Nickname": "Norman Withers",
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 9.796,
+        "posY": 4.043,
+        "posZ": 78.523,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 0.53,
+        "scaleY": 0.53,
+        "scaleZ": 0.53
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "b": 0.68902,
+        "g": 0.73851,
+        "r": 0.777
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "https://drive.google.com/uc?export=view&id=1FnJtMfd95Xff5VbOkoI4gnNUfODim-T0",
+        "MaterialIndex": 3,
+        "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1820021533259458573/9BE95E7760E7D2D53BC31BE50BEBFF3E84E3F2A7/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "9a06b1",
+      "Grid": false,
+      "GridProjection": false,
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "Rex Murphy",
+      "Name": "Custom_Model",
+      "Nickname": "Rex Murphy",
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 11.215,
+        "posY": 4.043,
+        "posZ": 76.754,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 0.53,
+        "scaleY": 0.53,
+        "scaleZ": 0.53
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "b": 0.68902,
+        "g": 0.73851,
+        "r": 0.777
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "https://drive.google.com/uc?export=view&id=1-4nGtn3AgUZh2FHyTRSEUS8sVpUqcZGo",
+        "MaterialIndex": 3,
+        "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1820021533259458573/9BE95E7760E7D2D53BC31BE50BEBFF3E84E3F2A7/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "7c30c7",
+      "Grid": false,
+      "GridProjection": false,
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "Tommy Muldoon",
+      "Name": "Custom_Model",
+      "Nickname": "Tommy Muldoon",
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 11.585,
+        "posY": 4.043,
+        "posZ": 74.142,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 0.53,
+        "scaleY": 0.53,
+        "scaleZ": 0.53
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "b": 0.68902,
+        "g": 0.73851,
+        "r": 0.777
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "https://drive.google.com/uc?export=view&id=1juR4Nnb8V6wcNZzuQPvJeV6FvKvg6XVo",
+        "MaterialIndex": 3,
+        "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1820021533259458573/9BE95E7760E7D2D53BC31BE50BEBFF3E84E3F2A7/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "e58805",
+      "Grid": false,
+      "GridProjection": false,
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "Wendy Adams",
+      "Name": "Custom_Model",
+      "Nickname": "Wendy Adams",
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 14.732,
+        "posY": 4.043,
+        "posZ": 78.073,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 0.53,
+        "scaleY": 0.53,
+        "scaleZ": 0.53
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "b": 0.68902,
+        "g": 0.73851,
+        "r": 0.777
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "https://drive.google.com/uc?export=view&id=1X3-jO7GvneL7V3tY7TpCUzoseAoUwlvn",
+        "MaterialIndex": 3,
+        "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1820021533259458573/9BE95E7760E7D2D53BC31BE50BEBFF3E84E3F2A7/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "e58805",
+      "Grid": false,
+      "GridProjection": false,
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "Diana Stanley",
+      "Name": "Custom_Model",
+      "Nickname": "Diana Stanley",
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 38.663,
+        "posY": 4.057,
+        "posZ": 37.033,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 3,
+        "scaleX": 0.53,
+        "scaleY": 0.53,
+        "scaleZ": 0.53
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "b": 0.68902,
+        "g": 0.73851,
+        "r": 0.777
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "https://drive.google.com/uc?export=view&id=1vb1spW8tPKYwU7w6GOZcfoax3YudELJ9",
+        "MaterialIndex": 3,
+        "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1820021533259458573/9BE95E7760E7D2D53BC31BE50BEBFF3E84E3F2A7/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "d525b8",
+      "Grid": false,
+      "GridProjection": false,
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "Kate Winthrop",
+      "Name": "Custom_Model",
+      "Nickname": "Kate Winthrop",
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 37.955,
+        "posY": 4.062,
+        "posZ": 37.347,
+        "rotX": 2,
+        "rotY": 270,
+        "rotZ": 358,
+        "scaleX": 0.53,
+        "scaleY": 0.53,
+        "scaleZ": 0.53
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "b": 0.68902,
+        "g": 0.73851,
+        "r": 0.777
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "https://drive.google.com/uc?export=view&id=1nbfrBNIGIR5MTmx5hFGkHyxPuXeb0KhV",
+        "MaterialIndex": 3,
+        "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1820021533259458573/9BE95E7760E7D2D53BC31BE50BEBFF3E84E3F2A7/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "204c3b",
+      "Grid": false,
+      "GridProjection": false,
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "Roland Banks",
+      "Name": "Custom_Model",
+      "Nickname": "Roland Banks",
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 38.403,
+        "posY": 4.055,
+        "posZ": 37.582,
+        "rotX": 358,
+        "rotY": 180,
+        "rotZ": 1,
+        "scaleX": 0.53,
+        "scaleY": 0.53,
+        "scaleZ": 0.53
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "b": 0.68902,
+        "g": 0.73851,
+        "r": 0.777
+      },
+      "CustomMesh": {
+        "CastShadows": true,
+        "ColliderURL": "",
+        "Convex": true,
+        "CustomShader": {
+          "FresnelStrength": 0,
+          "SpecularColor": {
+            "b": 1,
+            "g": 1,
+            "r": 1
+          },
+          "SpecularIntensity": 0,
+          "SpecularSharpness": 2
+        },
+        "DiffuseURL": "https://drive.google.com/uc?export=view&id=1uugfnaJgjShEMjcqYVIL3hasR0Gq1WKi",
+        "MaterialIndex": 3,
+        "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/1820021533259458573/9BE95E7760E7D2D53BC31BE50BEBFF3E84E3F2A7/",
+        "NormalURL": "",
+        "TypeIndex": 1
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "4781ac",
+      "Grid": false,
+      "GridProjection": false,
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "Skids O'Toole",
+      "Name": "Custom_Model",
+      "Nickname": "\"Skids\" O' Toole",
+      "Snap": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "Transform": {
+        "posX": 38.595,
+        "posY": 4.05,
+        "posZ": 37.507,
+        "rotX": 358,
+        "rotY": 180,
+        "rotZ": 2,
+        "scaleX": 0.53,
+        "scaleY": 0.53,
+        "scaleZ": 0.53
+      },
+      "Value": 0,
+      "XmlUI": ""
+    }
+  ],
+  "Description": "",
+  "DragSelectable": true,
+  "GMNotes": "",
+  "GUID": "add1ff",
+  "Grid": true,
+  "GridProjection": false,
+  "Hands": false,
+  "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "MaterialIndex": -1,
+  "MeasureMovement": false,
+  "MeshIndex": -1,
+  "Name": "Bag",
+  "Nickname": "Investigators",
+  "Snap": true,
+  "Sticky": true,
+  "Tooltip": true,
+  "Transform": {
+    "posX": 38.193,
+    "posY": 1.815,
+    "posZ": 37.042,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+  },
+  "Value": 0
+}

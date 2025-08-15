@@ -1,0 +1,1 @@
+{"hp":3,"sp":2,"name":"leo de luca","type":"special"}

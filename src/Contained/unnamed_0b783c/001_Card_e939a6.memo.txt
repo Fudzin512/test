@@ -1,0 +1,1 @@
+{"investigator": "Calvin Wright", "type": "starting", "guaranteed": true, "hp": 2, "sp": 2, "unbreakable": true}

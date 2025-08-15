@@ -1,0 +1,1 @@
+{"investigator": "Wendy Adams", "type": "starting", "guaranteed": true}

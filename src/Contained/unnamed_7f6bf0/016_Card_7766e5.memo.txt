@@ -1,0 +1,1 @@
+{"hp":4,"monstertype":["Ghoul","Cultist"],"name":"Ghoul Priest","remnant":true,"type":"Monster"}

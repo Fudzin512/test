@@ -1,0 +1,1 @@
+{"hp":2,"monstertype":["Human","Thrall"],"name":"Hulking Thrall","remnant":true,"type":"Monster"}

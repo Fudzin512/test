@@ -1,0 +1,1 @@
+{"hp":3,"monstertype":["Nightgaunt"],"name":"Eyeless Watcher","remnant":true,"type":"Monster"}

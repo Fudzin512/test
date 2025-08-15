@@ -1,0 +1,1 @@
+{"guaranteed":true,"investigator":"Diana Stanley","type":"starting"}

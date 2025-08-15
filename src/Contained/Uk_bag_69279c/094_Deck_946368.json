@@ -1,0 +1,1699 @@
+{
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
+  "ColorDiffuse": {
+    "b": 0.71324,
+    "g": 0.71324,
+    "r": 0.71324
+  },
+  "ContainedObjects": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 577813,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5719": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=15MSKLory9-s4gz6pC4RE6Wx0P-LTYx_w",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1YtqPVlvMWCDeRjZdmkEQjTRIeTO0hahF",
+          "NumHeight": 4,
+          "NumWidth": 7,
+          "Type": 0,
+          "UniqueBack": false
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "c18ab8",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": true,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"name\":\"service piece\",\"type\":\"special\"}",
+      "Name": "Card",
+      "Nickname": "Штатна зброя",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "item_magnet"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 7.017,
+        "posY": 2.014,
+        "posZ": 63.383,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 577819,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5719": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=15MSKLory9-s4gz6pC4RE6Wx0P-LTYx_w",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1YtqPVlvMWCDeRjZdmkEQjTRIeTO0hahF",
+          "NumHeight": 4,
+          "NumWidth": 7,
+          "Type": 0,
+          "UniqueBack": false
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "24ec58",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": true,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"name\":\"gravedigger\",\"type\":\"special\"}",
+      "Name": "Card",
+      "Nickname": "Копач могил",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "item_magnet"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 10.064,
+        "posY": 2.014,
+        "posZ": 63.275,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 577811,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5719": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=15MSKLory9-s4gz6pC4RE6Wx0P-LTYx_w",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1YtqPVlvMWCDeRjZdmkEQjTRIeTO0hahF",
+          "NumHeight": 4,
+          "NumWidth": 7,
+          "Type": 0,
+          "UniqueBack": false
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "c3fda0",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": true,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"name\":\"astrolabe\",\"type\":\"special\"}",
+      "Name": "Card",
+      "Nickname": "Астролябія",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "item_magnet"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 10.122,
+        "posY": 2.014,
+        "posZ": 58.489,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 577818,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5719": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=15MSKLory9-s4gz6pC4RE6Wx0P-LTYx_w",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1YtqPVlvMWCDeRjZdmkEQjTRIeTO0hahF",
+          "NumHeight": 4,
+          "NumWidth": 7,
+          "Type": 0,
+          "UniqueBack": false
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "20d656",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": true,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"name\":\"deputy of arkham\",\"type\":\"special\"}",
+      "Name": "Card",
+      "Nickname": "Заступник шерифа Аркгему",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "item_magnet"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 13.263,
+        "posY": 2.014,
+        "posZ": 63.855,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 577809,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5719": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=15MSKLory9-s4gz6pC4RE6Wx0P-LTYx_w",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1YtqPVlvMWCDeRjZdmkEQjTRIeTO0hahF",
+          "NumHeight": 4,
+          "NumWidth": 7,
+          "Type": 0,
+          "UniqueBack": false
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "2ce9c0",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": true,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"name\":\"ace of rods\",\"type\":\"special\"}",
+      "Name": "Card",
+      "Nickname": "Туз Жезлів",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "item_magnet"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 7.189,
+        "posY": 2.014,
+        "posZ": 58.222,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 577816,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5719": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=15MSKLory9-s4gz6pC4RE6Wx0P-LTYx_w",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1YtqPVlvMWCDeRjZdmkEQjTRIeTO0hahF",
+          "NumHeight": 4,
+          "NumWidth": 7,
+          "Type": 0,
+          "UniqueBack": false
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "168f1f",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": true,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"name\":\"clover club member\",\"type\":\"special\"}",
+      "Name": "Card",
+      "Nickname": "Членство клубу Клевер",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "item_magnet"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 13.082,
+        "posY": 2.014,
+        "posZ": 58.686,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 577820,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5719": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=15MSKLory9-s4gz6pC4RE6Wx0P-LTYx_w",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1YtqPVlvMWCDeRjZdmkEQjTRIeTO0hahF",
+          "NumHeight": 4,
+          "NumWidth": 7,
+          "Type": 0,
+          "UniqueBack": false
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "5ce317",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": true,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"name\":\"innsmouth look\",\"type\":\"special\"}",
+      "Name": "Card",
+      "Nickname": "Зовнішність Інсмута",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "item_magnet"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 16.443,
+        "posY": 2.014,
+        "posZ": 63.492,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 577808,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5719": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=15MSKLory9-s4gz6pC4RE6Wx0P-LTYx_w",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1YtqPVlvMWCDeRjZdmkEQjTRIeTO0hahF",
+          "NumHeight": 4,
+          "NumWidth": 7,
+          "Type": 0,
+          "UniqueBack": false
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "6de000",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": true,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"name\":\"abandoned luggage\",\"type\":\"special\"}",
+      "Name": "Card",
+      "Nickname": "Покинутий багаж",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "item_magnet"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 16.243,
+        "posY": 2.014,
+        "posZ": 58.134,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 577817,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5719": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=15MSKLory9-s4gz6pC4RE6Wx0P-LTYx_w",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1YtqPVlvMWCDeRjZdmkEQjTRIeTO0hahF",
+          "NumHeight": 4,
+          "NumWidth": 7,
+          "Type": 0,
+          "UniqueBack": false
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "4743c2",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": true,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"name\":\"dark blessing\",\"type\":\"special\"}",
+      "Name": "Card",
+      "Nickname": "Темне благословення",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "item_magnet"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 20.114,
+        "posY": 2.014,
+        "posZ": 58.443,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 577812,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5719": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=15MSKLory9-s4gz6pC4RE6Wx0P-LTYx_w",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1YtqPVlvMWCDeRjZdmkEQjTRIeTO0hahF",
+          "NumHeight": 4,
+          "NumWidth": 7,
+          "Type": 0,
+          "UniqueBack": false
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "e45a5b",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": true,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"name\":\"mysterious serum\",\"type\":\"special\"}",
+      "Name": "Card",
+      "Nickname": "Таємна сироватка",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "item_magnet"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 7.41,
+        "posY": 2.151,
+        "posZ": 62.973,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 577821,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5719": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=15MSKLory9-s4gz6pC4RE6Wx0P-LTYx_w",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1YtqPVlvMWCDeRjZdmkEQjTRIeTO0hahF",
+          "NumHeight": 4,
+          "NumWidth": 7,
+          "Type": 0,
+          "UniqueBack": false
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "be86b2",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": true,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"name\":\"performer\",\"type\":\"special\"}",
+      "Name": "Card",
+      "Nickname": "Артист",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "item_magnet"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": -8.66,
+        "posY": 2.014,
+        "posZ": 60.796,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 577822,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5719": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=15MSKLory9-s4gz6pC4RE6Wx0P-LTYx_w",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1YtqPVlvMWCDeRjZdmkEQjTRIeTO0hahF",
+          "NumHeight": 4,
+          "NumWidth": 7,
+          "Type": 0,
+          "UniqueBack": false
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "a74e71",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": true,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"name\":\"rare books access\",\"type\":\"special\"}",
+      "Name": "Card",
+      "Nickname": "Доступ до рідких книг",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "item_magnet"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": -5.677,
+        "posY": 2.014,
+        "posZ": 60.531,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 577823,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5719": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=15MSKLory9-s4gz6pC4RE6Wx0P-LTYx_w",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1YtqPVlvMWCDeRjZdmkEQjTRIeTO0hahF",
+          "NumHeight": 4,
+          "NumWidth": 7,
+          "Type": 0,
+          "UniqueBack": false
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "763411",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": true,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"name\":\"reporting gig\",\"type\":\"special\"}",
+      "Name": "Card",
+      "Nickname": "Репортерське завдання",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "item_magnet"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": -2.505,
+        "posY": 2.014,
+        "posZ": 59.77,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 577815,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5719": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=15MSKLory9-s4gz6pC4RE6Wx0P-LTYx_w",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1YtqPVlvMWCDeRjZdmkEQjTRIeTO0hahF",
+          "NumHeight": 4,
+          "NumWidth": 7,
+          "Type": 0,
+          "UniqueBack": false
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "eeddb3",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": true,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"hp\":3,\"name\":\"wooden homunculus\",\"type\":\"special\"}",
+      "Name": "Card",
+      "Nickname": "Дерев’яний Гомункул",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "item_magnet"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": -8.86,
+        "posY": 2.014,
+        "posZ": 56.771,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 577824,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5719": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=15MSKLory9-s4gz6pC4RE6Wx0P-LTYx_w",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1YtqPVlvMWCDeRjZdmkEQjTRIeTO0hahF",
+          "NumHeight": 4,
+          "NumWidth": 7,
+          "Type": 0,
+          "UniqueBack": false
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "7c695b",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": true,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"name\":\"server at velma's\",\"type\":\"special\"}",
+      "Name": "Card",
+      "Nickname": "Офіціант у Велми",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "item_magnet"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 0.273,
+        "posY": 2.014,
+        "posZ": 59.87,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 577807,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5719": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=15MSKLory9-s4gz6pC4RE6Wx0P-LTYx_w",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1YtqPVlvMWCDeRjZdmkEQjTRIeTO0hahF",
+          "NumHeight": 4,
+          "NumWidth": 7,
+          "Type": 0,
+          "UniqueBack": false
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "3ec67a",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": true,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"hp\":3,\"name\":\"stray dog\",\"sp\":1,\"type\":\"special\"}",
+      "Name": "Card",
+      "Nickname": "Бродячий пес",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "item_magnet"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": -5.713,
+        "posY": 2.014,
+        "posZ": 56.388,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 577806,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5719": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=15MSKLory9-s4gz6pC4RE6Wx0P-LTYx_w",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1YtqPVlvMWCDeRjZdmkEQjTRIeTO0hahF",
+          "NumHeight": 4,
+          "NumWidth": 7,
+          "Type": 0,
+          "UniqueBack": false
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "36bcbf",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": true,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"hp\":1,\"name\":\"stray cat\",\"sp\":2,\"type\":\"special\"}",
+      "Name": "Card",
+      "Nickname": "Бродяча кішка",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "item_magnet"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": -2.737,
+        "posY": 2.014,
+        "posZ": 55.716,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 577814,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5719": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=15MSKLory9-s4gz6pC4RE6Wx0P-LTYx_w",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1YtqPVlvMWCDeRjZdmkEQjTRIeTO0hahF",
+          "NumHeight": 4,
+          "NumWidth": 7,
+          "Type": 0,
+          "UniqueBack": false
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "5e763f",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": true,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"name\":\"the moon\",\"sp\":3,\"type\":\"special\"}",
+      "Name": "Card",
+      "Nickname": "Місяць",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "item_magnet"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 0.454,
+        "posY": 2.014,
+        "posZ": 55.785,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 577825,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5719": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=15MSKLory9-s4gz6pC4RE6Wx0P-LTYx_w",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1YtqPVlvMWCDeRjZdmkEQjTRIeTO0hahF",
+          "NumHeight": 4,
+          "NumWidth": 7,
+          "Type": 0,
+          "UniqueBack": false
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "afa720",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": true,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"name\":\"stevedore\",\"type\":\"special\"}",
+      "Name": "Card",
+      "Nickname": "Портовий вантажник",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "item_magnet"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 3.524,
+        "posY": 2.014,
+        "posZ": 60.016,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 577801,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5719": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=15MSKLory9-s4gz6pC4RE6Wx0P-LTYx_w",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1YtqPVlvMWCDeRjZdmkEQjTRIeTO0hahF",
+          "NumHeight": 4,
+          "NumWidth": 7,
+          "Type": 0,
+          "UniqueBack": false
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "f85d58",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": true,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"hp\":3,\"name\":\"daniel chesterfield\",\"sp\":1,\"type\":\"special\"}",
+      "Name": "Card",
+      "Nickname": "Деніел Честерфілд",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "item_magnet"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 3.335,
+        "posY": 2.014,
+        "posZ": 55.751,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 577803,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5719": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=15MSKLory9-s4gz6pC4RE6Wx0P-LTYx_w",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1YtqPVlvMWCDeRjZdmkEQjTRIeTO0hahF",
+          "NumHeight": 4,
+          "NumWidth": 7,
+          "Type": 0,
+          "UniqueBack": false
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "a48365",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": true,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"hp\":3,\"name\":\"ezra graves\",\"sp\":2,\"type\":\"special\"}",
+      "Name": "Card",
+      "Nickname": "Езра Грейвс",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "item_magnet"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": -3.948,
+        "posY": 2.014,
+        "posZ": 44.928,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 180,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 577802,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5719": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=15MSKLory9-s4gz6pC4RE6Wx0P-LTYx_w",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1YtqPVlvMWCDeRjZdmkEQjTRIeTO0hahF",
+          "NumHeight": 4,
+          "NumWidth": 7,
+          "Type": 0,
+          "UniqueBack": false
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "bca913",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": true,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"hp\":2,\"name\":\"dayana esperence\",\"sp\":3,\"type\":\"special\"}",
+      "Name": "Card",
+      "Nickname": "Даяна Есперенс",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "item_magnet"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": -4.1,
+        "posY": 2.014,
+        "posZ": 44.917,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 180,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 577800,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5719": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=15MSKLory9-s4gz6pC4RE6Wx0P-LTYx_w",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1YtqPVlvMWCDeRjZdmkEQjTRIeTO0hahF",
+          "NumHeight": 4,
+          "NumWidth": 7,
+          "Type": 0,
+          "UniqueBack": false
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "5b6e6f",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": true,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"hp\":1,\"name\":\"black cat\",\"sp\":3,\"type\":\"special\"}",
+      "Name": "Card",
+      "Nickname": "Чорна кішка",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "item_magnet"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": -4.154,
+        "posY": 2.014,
+        "posZ": 44.911,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 180,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 577805,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5719": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=15MSKLory9-s4gz6pC4RE6Wx0P-LTYx_w",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1YtqPVlvMWCDeRjZdmkEQjTRIeTO0hahF",
+          "NumHeight": 4,
+          "NumWidth": 7,
+          "Type": 0,
+          "UniqueBack": false
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "7dcfd5",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": true,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"hp\":3,\"name\":\"lita chantler\",\"sp\":3,\"type\":\"special\"}",
+      "Name": "Card",
+      "Nickname": "Літа Чантлер",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "item_magnet"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": -3.875,
+        "posY": 2.014,
+        "posZ": 44.913,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 180,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 577804,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5719": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=15MSKLory9-s4gz6pC4RE6Wx0P-LTYx_w",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1YtqPVlvMWCDeRjZdmkEQjTRIeTO0hahF",
+          "NumHeight": 4,
+          "NumWidth": 7,
+          "Type": 0,
+          "UniqueBack": false
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "21aa83",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": true,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"hp\":2,\"name\":\"hunting dog\",\"sp\":2,\"type\":\"special\"}",
+      "Name": "Card",
+      "Nickname": "Мисливський пес",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "item_magnet"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": -4.463,
+        "posY": 2.014,
+        "posZ": 44.928,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 180,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0,
+      "XmlUI": ""
+    },
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "Autoraise": true,
+      "CardID": 577810,
+      "ColorDiffuse": {
+        "b": 0.71324,
+        "g": 0.71324,
+        "r": 0.71324
+      },
+      "CustomDeck": {
+        "5719": {
+          "BackIsHidden": true,
+          "BackURL": "https://drive.google.com/uc?export=view&id=15MSKLory9-s4gz6pC4RE6Wx0P-LTYx_w",
+          "FaceURL": "https://drive.google.com/uc?export=view&id=1YtqPVlvMWCDeRjZdmkEQjTRIeTO0hahF",
+          "NumHeight": 4,
+          "NumWidth": 7,
+          "Type": 0,
+          "UniqueBack": false
+        }
+      },
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "a59cf0",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": true,
+      "HideWhenFaceDown": true,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "MeasureMovement": false,
+      "Memo": "{\"name\":\"contraband whiskey\",\"sp\":3,\"type\":\"special\"}",
+      "Name": "Card",
+      "Nickname": "Контрабандне Віскі",
+      "SidewaysCard": false,
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "item_magnet"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": -4.291,
+        "posY": 2.014,
+        "posZ": 44.937,
+        "rotX": 0,
+        "rotY": 181,
+        "rotZ": 180,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Value": 0,
+      "XmlUI": ""
+    }
+  ],
+  "CustomDeck": {
+    "5778": {
+      "BackIsHidden": true,
+      "BackURL": "https://drive.google.com/uc?export=view&id=15MSKLory9-s4gz6pC4RE6Wx0P-LTYx_w",
+      "FaceURL": "https://drive.google.com/uc?export=view&id=1YtqPVlvMWCDeRjZdmkEQjTRIeTO0hahF",
+      "NumHeight": 4,
+      "NumWidth": 7,
+      "Type": 0,
+      "UniqueBack": false
+    }
+  },
+  "DeckIDs": [
+    577813,
+    577819,
+    577811,
+    577818,
+    577809,
+    577816,
+    577820,
+    577808,
+    577817,
+    577812,
+    577821,
+    577822,
+    577823,
+    577815,
+    577824,
+    577807,
+    577806,
+    577814,
+    577825,
+    577801,
+    577803,
+    577802,
+    577800,
+    577805,
+    577804,
+    577810
+  ],
+  "Description": "",
+  "DragSelectable": true,
+  "GMNotes": "",
+  "GUID": "946368",
+  "Grid": true,
+  "GridProjection": false,
+  "Hands": false,
+  "HideWhenFaceDown": true,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "MeasureMovement": false,
+  "Name": "Deck",
+  "Nickname": "",
+  "SidewaysCard": false,
+  "Snap": true,
+  "Sticky": true,
+  "Tags": [
+    "item_magnet"
+  ],
+  "Tooltip": true,
+  "Transform": {
+    "posX": -69.515,
+    "posY": 4.156,
+    "posZ": 60.46,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 180,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+  },
+  "Value": 0
+}

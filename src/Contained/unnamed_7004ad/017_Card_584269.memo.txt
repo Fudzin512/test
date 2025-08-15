@@ -1,0 +1,1 @@
+{"hp":1,"monstertype":["Sheldon","Human"],"name":"Mouthy Raconteur","remnant":false,"type":"Monster"}

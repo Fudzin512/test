@@ -1,0 +1,1 @@
+{"locations":{"Science Building":{"dooms":1}},"name":"EotD","neighborhood":"Miskatonic University","number":13,"type":"Event"}

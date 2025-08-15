@@ -1,0 +1,1 @@
+{"investigator": "Calvin Wright", "type": "starting", "guaranteed": true}

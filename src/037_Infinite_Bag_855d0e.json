@@ -1,0 +1,128 @@
+{
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
+  "ColorDiffuse": {
+    "b": 1,
+    "g": 0.37256,
+    "r": 0.30589
+  },
+  "ContainedObjects": [
+    {
+      "AltLookAngle": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "AttachedSnapPoints": [
+        {
+          "Position": {
+            "x": 0,
+            "y": 0.1,
+            "z": -0.154
+          },
+          "Rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ],
+      "Autoraise": true,
+      "ColorDiffuse": {
+        "b": 0.25,
+        "g": 0.25,
+        "r": 0.25
+      },
+      "CustomImage": {
+        "CustomTile": {
+          "Stackable": false,
+          "Stretch": true,
+          "Thickness": 0.1,
+          "Type": 3
+        },
+        "ImageScalar": 1,
+        "ImageSecondaryURL": "",
+        "ImageURL": "https://drive.google.com/uc?export=view&id=1M9zjFU49RgMqLWt4-C3kMPYpfoTtG8Li",
+        "WidthScale": 0
+      },
+      "CustomUIAssets": [
+        {
+          "Name": "Fonts",
+          "Type": 1,
+          "URL": "https://drive.google.com/uc?export=view&id=18_lFlnSaOFlbNVfE-G-LFqqfptMMkKFS"
+        }
+      ],
+      "Description": "",
+      "DragSelectable": true,
+      "GMNotes": "",
+      "GUID": "7dc693",
+      "Grid": true,
+      "GridProjection": false,
+      "Hands": false,
+      "HideWhenFaceDown": false,
+      "IgnoreFoW": false,
+      "LayoutGroupSortIndex": 0,
+      "Locked": false,
+      "LuaScript": "-- Bundled by luabundle {\"version\":\"1.6.0\"}\nlocal __bundle_require, __bundle_loaded, __bundle_register, __bundle_modules = (function(superRequire)\n\tlocal loadingPlaceholder = {[{}] = true}\n\n\tlocal register\n\tlocal modules = {}\n\n\tlocal require\n\tlocal loaded = {}\n\n\tregister = function(name, body)\n\t\tif not modules[name] then\n\t\t\tmodules[name] = body\n\t\tend\n\tend\n\n\trequire = function(name)\n\t\tlocal loadedModule = loaded[name]\n\n\t\tif loadedModule then\n\t\t\tif loadedModule == loadingPlaceholder then\n\t\t\t\treturn nil\n\t\t\tend\n\t\telse\n\t\t\tif not modules[name] then\n\t\t\t\tif not superRequire then\n\t\t\t\t\tlocal identifier = type(name) == 'string' and '\\\"' .. name .. '\\\"' or tostring(name)\n\t\t\t\t\terror('Tried to require ' .. identifier .. ', but no such module has been registered')\n\t\t\t\telse\n\t\t\t\t\treturn superRequire(name)\n\t\t\t\tend\n\t\t\tend\n\n\t\t\tloaded[name] = loadingPlaceholder\n\t\t\tloadedModule = modules[name](require, loaded, register, modules)\n\t\t\tloaded[name] = loadedModule\n\t\tend\n\n\t\treturn loadedModule\n\tend\n\n\treturn require, loaded, register, modules\nend)(nil)\n__bundle_register(\"__root\", function(require, _LOADED, __bundle_register, __bundle_modules)\n--serpent = require(\"util/serpent\")\r\n\r\nlocal data = {\r\n\thp = 0,\r\n\tmaxHp = nil,\r\n\tsp = 0,\r\n\tmaxSp = nil,\r\n\tunbreakable = false\r\n  }\r\n\r\n-- це все не працювало\r\n  function onLoad(savedData)\r\n\tlocal sData = parseJson(savedData)\r\n\tif sData then\r\n\t  data = sData\r\n\tend\r\n\r\n\tprepareTile()\r\n  end\r\n\r\n  function onSave()\r\n\tlocal saveData = JSON.encode(data)\r\n\treturn saveData\r\n  end\r\n\r\nfunction prepareTile() -- запустити під час аттачу щоб видалити зайвий каунтер\r\n\tself.UI.setAttribute('damage', 'active', data.maxHp ~= nil) \r\n\tself.UI.setAttribute('horror', 'active', data.maxSp ~= nil) \r\nend\r\n\r\nfunction damage(player, alt_click, id) -- обробка кліка по HP\r\n\tif alt_click == \"-1\" then\r\n\t\tif data.maxHp and data.hp < data.maxHp then data.hp = data.hp + 1 end\r\n\telseif alt_click == \"-2\" then\r\n\t\tif data.hp > 0 then data.hp = data.hp - 1 end\r\n\tend\r\n\tupdateTile()\r\nend\r\n\r\nfunction horror(player, alt_click, id) -- обробка кліка по SP\r\n\tif alt_click == \"-1\" then\r\n\t\tif data.maxSp and data.sp < data.maxSp then data.sp = data.sp + 1 end\r\n\telseif alt_click == \"-2\" then\r\n\t\tif data.sp > 0 then data.sp = data.sp - 1 end\r\n\tend\r\n\tupdateTile()\r\nend\r\n\r\nfunction setData(d)\r\n\tdata.hp = 0\r\n\tdata.sp = 0\r\n\tdata.maxHp = d.hp\r\n\tdata.maxSp = d.sp\r\n\tdata.unbreakable = d.unbreakable or false\r\n\tprepareTile()\r\nend\r\n\r\nfunction updateTile() -- оновлення XML\r\n\tlocal colorDamage = self.UI.getAttribute('damage_btn', 'textColor')\r\n\tlocal colorHorror = self.UI.getAttribute('horror_btn', 'textColor')\r\n\tif data.hp == data.maxHp and not data.unbreakable then\r\n\t\tself.UI.setAttribute('horror', 'active', false)\r\n\t\tself.UI.setAttribute('horror_cls', 'active', true)\r\n\telse\r\n\t\tself.UI.setAttribute('horror', 'active', true)\r\n\t\tself.UI.setAttribute('horror_cls', 'active', false)\r\n\tend\r\n\tif data.sp == data.maxSp and not data.unbreakable then\r\n\t\tself.UI.setAttribute('damage', 'active', false)\r\n\t\tself.UI.setAttribute('damage_cls', 'active', true)\r\n\telse\r\n\t\tself.UI.setAttribute('damage', 'active', true)\r\n\t\tself.UI.setAttribute('damage_cls', 'active', false)\r\n\tend\r\n\tself.UI.setAttribute('damage_btn', 'text', data.hp)\r\n\tself.UI.setAttribute('horror_btn', 'text', data.sp)\r\n\tself.UI.setAttribute('damage_btn', 'textColor', colorDamage)\r\n\tself.UI.setAttribute('horror_btn', 'textColor', colorHorror)\r\nend\r\n\r\nfunction ItemMatDestruct() -- обробка кліку по Х\r\n\tGlobal.call(\"onItemMatDestruct\", self)\r\nend\r\n\r\nfunction parseJson(memo)\r\n  if not memo or type(memo) ~= \"string\" then\r\n    return nil\r\n  end\r\n\r\n  local success, result = pcall(function()\r\n    return JSON.decode(memo)\r\n  end)\r\n\r\n  if success then\r\n    return result\r\n  else\r\n    return nil\r\n  end\r\nend\nend)\n__bundle_register(\"util/serpent\", function(require, _LOADED, __bundle_register, __bundle_modules)\nlocal n, v = \"serpent\", \"0.303\" -- (C) 2012-18 Paul Kulchenko; MIT License\nlocal c, d = \"Paul Kulchenko\", \"Lua serializer and pretty printer\"\nlocal snum = {[tostring(1/0)]='1/0 --[[math.huge]]',[tostring(-1/0)]='-1/0 --[[-math.huge]]',[tostring(0/0)]='0/0'}\nlocal badtype = {thread = true, userdata = true, cdata = true}\nlocal getmetatable = debug and debug.getmetatable or getmetatable\nlocal pairs = function(t) return next, t end -- avoid using __pairs in Lua 5.2+\nlocal keyword, globals, G = {}, {}, (_G or _ENV)\nfor _,k in ipairs({'and', 'break', 'do', 'else', 'elseif', 'end', 'false',\n  'for', 'function', 'goto', 'if', 'in', 'local', 'nil', 'not', 'or', 'repeat',\n  'return', 'then', 'true', 'until', 'while'}) do keyword[k] = true end\nfor k,v in pairs(G) do globals[v] = k end -- build func to name mapping\nfor _,g in ipairs({'coroutine', 'debug', 'io', 'math', 'string', 'table', 'os'}) do\n  for k,v in pairs(type(G[g]) == 'table' and G[g] or {}) do globals[v] = g..'.'..k end end\n\nlocal function s(t, opts)\n  local name, indent, fatal, maxnum = opts.name, opts.indent, opts.fatal, opts.maxnum\n  local sparse, custom, huge = opts.sparse, opts.custom, not opts.nohuge\n  local space, maxl = (opts.compact and '' or ' '), (opts.maxlevel or math.huge)\n  local maxlen, metatostring = tonumber(opts.maxlength), opts.metatostring\n  local iname, comm = '_'..(name or ''), opts.comment and (tonumber(opts.comment) or math.huge)\n  local numformat = opts.numformat or \"%.17g\"\n  local seen, sref, syms, symn = {}, {'local '..iname..'={}'}, {}, 0\n  local function gensym(val) return '_'..(tostring(tostring(val)):gsub(\"[^%w]\",\"\"):gsub(\"(%d%w+)\",\n    -- tostring(val) is needed because __tostring may return a non-string value\n    function(s) if not syms[s] then symn = symn+1; syms[s] = symn end return tostring(syms[s]) end)) end\n  local function safestr(s) return type(s) == \"number\" and (huge and snum[tostring(s)] or numformat:format(s))\n    or type(s) ~= \"string\" and tostring(s) -- escape NEWLINE/010 and EOF/026\n    or (\"%q\"):format(s):gsub(\"\\010\",\"n\"):gsub(\"\\026\",\"\\\\026\") end\n  -- handle radix changes in some locales\n  if opts.fixradix and (\".1f\"):format(1.2) ~= \"1.2\" then\n    local origsafestr = safestr\n    safestr = function(s) return type(s) == \"number\"\n      and (nohuge and snum[tostring(s)] or numformat:format(s):gsub(\",\",\".\")) or origsafestr(s)\n    end\n  end\n  local function comment(s,l) return comm and (l or 0) < comm and ' --[['..select(2, pcall(tostring, s))..']]' or '' end\n  local function globerr(s,l) return globals[s] and globals[s]..comment(s,l) or not fatal\n    and safestr(select(2, pcall(tostring, s))) or error(\"Can't serialize \"..tostring(s)) end\n  local function safename(path, name) -- generates foo.bar, foo[3], or foo['b a r']\n    local n = name == nil and '' or name\n    local plain = type(n) == \"string\" and n:match(\"^[%l%u_][%w_]*$\") and not keyword[n]\n    local safe = plain and n or '['..safestr(n)..']'\n    return (path or '')..(plain and path and '.' or '')..safe, safe end\n  local alphanumsort = type(opts.sortkeys) == 'function' and opts.sortkeys or function(k, o, n) -- k=keys, o=originaltable, n=padding\n    local maxn, to = tonumber(n) or 12, {number = 'a', string = 'b'}\n    local function padnum(d) return (\"%0\"..tostring(maxn)..\"d\"):format(tonumber(d)) end\n    table.sort(k, function(a,b)\n      -- sort numeric keys first: k[key] is not nil for numerical keys\n      return (k[a] ~= nil and 0 or to[type(a)] or 'z')..(tostring(a):gsub(\"%d+\",padnum))\n           < (k[b] ~= nil and 0 or to[type(b)] or 'z')..(tostring(b):gsub(\"%d+\",padnum)) end) end\n  local function val2str(t, name, indent, insref, path, plainindex, level)\n    local ttype, level, mt = type(t), (level or 0), getmetatable(t)\n    local spath, sname = safename(path, name)\n    local tag = plainindex and\n      ((type(name) == \"number\") and '' or name..space..'='..space) or\n      (name ~= nil and sname..space..'='..space or '')\n    if seen[t] then -- already seen this element\n      sref[#sref+1] = spath..space..'='..space..seen[t]\n      return tag..'nil'..comment('ref', level)\n    end\n    -- protect from those cases where __tostring may fail\n    if type(mt) == 'table' and metatostring ~= false then\n      local to, tr = pcall(function() return mt.__tostring(t) end)\n      local so, sr = pcall(function() return mt.__serialize(t) end)\n      if (to or so) then -- knows how to serialize itself\n        seen[t] = insref or spath\n        t = so and sr or tr\n        ttype = type(t)\n      end -- new value falls through to be serialized\n    end\n    if ttype == \"table\" then\n      if level >= maxl then return tag..'{}'..comment('maxlvl', level) end\n      seen[t] = insref or spath\n      if next(t) == nil then return tag..'{}'..comment(t, level) end -- table empty\n      if maxlen and maxlen < 0 then return tag..'{}'..comment('maxlen', level) end\n      local maxn, o, out = math.min(#t, maxnum or #t), {}, {}\n      for key = 1, maxn do o[key] = key end\n      if not maxnum or #o < maxnum then\n        local n = #o -- n = n + 1; o[n] is much faster than o[#o+1] on large tables\n        for key in pairs(t) do\n          if o[key] ~= key then n = n + 1; o[n] = key end\n        end\n      end\n      if maxnum and #o > maxnum then o[maxnum+1] = nil end\n      if opts.sortkeys and #o > maxn then alphanumsort(o, t, opts.sortkeys) end\n      local sparse = sparse and #o > maxn -- disable sparsness if only numeric keys (shorter output)\n      for n, key in ipairs(o) do\n        local value, ktype, plainindex = t[key], type(key), n <= maxn and not sparse\n        if opts.valignore and opts.valignore[value] -- skip ignored values; do nothing\n        or opts.keyallow and not opts.keyallow[key]\n        or opts.keyignore and opts.keyignore[key]\n        or opts.valtypeignore and opts.valtypeignore[type(value)] -- skipping ignored value types\n        or sparse and value == nil then -- skipping nils; do nothing\n        elseif ktype == 'table' or ktype == 'function' or badtype[ktype] then\n          if not seen[key] and not globals[key] then\n            sref[#sref+1] = 'placeholder'\n            local sname = safename(iname, gensym(key)) -- iname is table for local variables\n            sref[#sref] = val2str(key,sname,indent,sname,iname,true)\n          end\n          sref[#sref+1] = 'placeholder'\n          local path = seen[t]..'['..tostring(seen[key] or globals[key] or gensym(key))..']'\n          sref[#sref] = path..space..'='..space..tostring(seen[value] or val2str(value,nil,indent,path))\n        else\n          out[#out+1] = val2str(value,key,indent,nil,seen[t],plainindex,level+1)\n          if maxlen then\n            maxlen = maxlen - #out[#out]\n            if maxlen < 0 then break end\n          end\n        end\n      end\n      local prefix = string.rep(indent or '', level)\n      local head = indent and '{\\n'..prefix..indent or '{'\n      local body = table.concat(out, ','..(indent and '\\n'..prefix..indent or space))\n      local tail = indent and \"\\n\"..prefix..'}' or '}'\n      return (custom and custom(tag,head,body,tail,level) or tag..head..body..tail)..comment(t, level)\n    elseif badtype[ttype] then\n      seen[t] = insref or spath\n      return tag..globerr(t, level)\n    elseif ttype == 'function' then\n      seen[t] = insref or spath\n      if opts.nocode then return tag..\"function() --[[..skipped..]] end\"..comment(t, level) end\n      local ok, res = pcall(string.dump, t)\n      local func = ok and \"((loadstring or load)(\"..safestr(res)..\",'@serialized'))\"..comment(t, level)\n      return tag..(func or globerr(t, level))\n    else return tag..safestr(t) end -- handle all other types\n  end\n  local sepr = indent and \"\\n\" or \";\"..space\n  local body = val2str(t, name, indent) -- this call also populates sref\n  local tail = #sref>1 and table.concat(sref, sepr)..sepr or ''\n  local warn = opts.comment and #sref>1 and space..\"--[[incomplete output with shared/self-references skipped]]\" or ''\n  return not name and body..warn or \"do local \"..body..sepr..tail..\"return \"..name..sepr..\"end\"\nend\n\nlocal function deserialize(data, opts)\n  local env = (opts and opts.safe == false) and G\n    or setmetatable({}, {\n        __index = function(t,k) return t end,\n        __call = function(t,...) error(\"cannot call functions\") end\n      })\n  local f, res = (loadstring or load)('return '..data, nil, nil, env)\n  if not f then f, res = (loadstring or load)(data, nil, nil, env) end\n  if not f then return f, res end\n  if setfenv then setfenv(f, env) end\n  return pcall(f)\nend\n\nlocal function merge(a, b) if b then for k,v in pairs(b) do a[k] = v end end; return a; end\nreturn { _NAME = n, _COPYRIGHT = c, _DESCRIPTION = d, _VERSION = v, serialize = s,\n  load = deserialize,\n  dump = function(a, opts) return s(a, merge({name = '_', compact = true, sparse = true}, opts)) end,\n  line = function(a, opts) return s(a, merge({sortkeys = true, comment = true}, opts)) end,\n  block = function(a, opts) return s(a, merge({indent = '  ', sortkeys = true, comment = true}, opts)) end,\n  tts = function(a, opts)\n    return s(a, merge({\n      indent = '  ',\n      sortkeys = true,\n      comment = false,\n      metatostring = false,\n    },\n    opts))\n  end\n}\nend)\nreturn __bundle_require(\"__root\")",
+      "LuaScriptState": "{\"hp\":0,\"sp\":0}",
+      "MeasureMovement": false,
+      "Memo": "{\"type\":\"Item Mat\"}",
+      "Name": "Custom_Tile",
+      "Nickname": "Item Mat",
+      "Snap": true,
+      "Sticky": true,
+      "Tags": [
+        "item_mat"
+      ],
+      "Tooltip": true,
+      "Transform": {
+        "posX": 65.841,
+        "posY": 4.088,
+        "posZ": 65.181,
+        "rotX": 0,
+        "rotY": 180,
+        "rotZ": 1,
+        "scaleX": 1.8,
+        "scaleY": 1,
+        "scaleZ": 1.84
+      },
+      "Value": 0,
+      "XmlUI": "<panel\r\n\tid=\"damage\"\r\n\tactive=\"false\"\r\n\twidth=\"500\"\r\n\theight=\"300\"\r\n\tscale=\"0.1 0.1 0\"\r\n\tposition=\"30 85 -11\"\r\n\trotation=\"0 0 180\">\r\n\t<button\r\n\t\tid=\"damage_btn\"\r\n\t\tonClick=\"damage\"\r\n\t\twidth=\"500\"\r\n\t\theight=\"300\"\r\n\t\tposition=\"0 -40 0\"\r\n\t\tpadding=\"0 300 10 0\"\r\n\t\tfontSize=\"290\"\r\n\t\tfontStyle=\"Bold\"\r\n\t\tfont=\"Fonts/AdonisC\"\r\n\t\ttextColor=\"#e9543b\"\r\n\t\tcolor=\"clear\"\r\n\t\ttext=\"0\"/>\r\n\t<text\r\n\t\tid=\"damage_txt\"\r\n\t\tposition=\"150 78 0\"\r\n\t\tfontSize=\"70\"\r\n\t\tfontStyle=\"Bold\"\r\n\t\tfont=\"Fonts/AdonisC\"\r\n\t\tcolor=\"#fff5e2\"\r\n\t\ttext=\"ПОРАНЕННЯ\"/>\r\n</panel>\r\n<panel\r\n\tid=\"damage_cls\"\r\n\tactive=\"false\"\r\n\twidth=\"500\"\r\n\theight=\"300\"\r\n\tscale=\"0.1 0.1 0\"\r\n\tposition=\"30 85 -11\"\r\n\trotation=\"0 0 180\">\r\n\t<button\r\n\t\tonClick=\"ItemMatDestruct\"\r\n\t\twidth=\"500\"\r\n\t\theight=\"300\"\r\n\t\tposition=\"0 -40 0\"\r\n\t\tpadding=\"0 300 10 0\"\r\n\t\tfontSize=\"290\"\r\n\t\tfontStyle=\"Bold\"\r\n\t\tfont=\"Fonts/AdonisC\"\r\n\t\ttextColor=\"#e9543b\"\r\n\t\tcolor=\"clear\"\r\n\t\ttext=\"X\"/>\r\n</panel>\r\n<panel\r\n\tid=\"horror\"\r\n\tactive=\"false\"\r\n\twidth=\"500\"\r\n\theight=\"300\"\r\n\tscale=\"0.1 0.1 0\"\r\n\tposition=\"-30 85 -11\"\r\n\trotation=\"0 0 180\">\r\n\t<button\r\n\t\tid=\"horror_btn\"\r\n\t\tonClick=\"horror\"\r\n\t\twidth=\"500\"\r\n\t\theight=\"300\"\r\n\t\tposition=\"0 -40 0\"\r\n\t\tpadding=\"300 0 10 0\"\r\n\t\tfontSize=\"290\"\r\n\t\tfontStyle=\"Bold\"\r\n\t\tfont=\"Fonts/AdonisC\"\r\n\t\ttextColor=\"#485cb3\"\r\n\t\tcolor=\"clear\"\r\n\t\ttext=\"0\"/>\r\n\t<text\r\n\t\tid=\"horror_txt\"\r\n\t\tposition=\"-26 -93 -11\"\r\n\t\tfontSize=\"70\"\r\n\t\tfontStyle=\"Bold\"\r\n\t\tfont=\"Fonts/AdonisC\"\r\n\t\tcolor=\"#fff5e2\"\r\n\t\ttext=\"ЖАХ\"/>\r\n</panel>\r\n<panel\r\n\tid=\"horror_cls\"\r\n\tactive=\"false\"\r\n\twidth=\"500\"\r\n\theight=\"300\"\r\n\tscale=\"0.1 0.1 0\"\r\n\tposition=\"-30 85 -11\"\r\n\trotation=\"0 0 180\">\r\n\t<button\r\n\t\tonClick=\"ItemMatDestruct\"\r\n\t\twidth=\"500\"\r\n\t\theight=\"300\"\r\n\t\tposition=\"0 -40 0\"\r\n\t\tpadding=\"300 0 10 0\"\r\n\t\tfontSize=\"290\"\r\n\t\tfontStyle=\"Bold\"\r\n\t\tfont=\"Fonts/AdonisC\"\r\n\t\ttextColor=\"#e9543b\"\r\n\t\tcolor=\"clear\"\r\n\t\ttext=\"X\"/>\r\n</panel>"
+    }
+  ],
+  "Description": "",
+  "DragSelectable": true,
+  "GMNotes": "",
+  "GUID": "855d0e",
+  "Grid": true,
+  "GridProjection": false,
+  "Hands": false,
+  "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "MaterialIndex": -1,
+  "MeasureMovement": false,
+  "MeshIndex": -1,
+  "Name": "Infinite_Bag",
+  "Nickname": "",
+  "Snap": true,
+  "Sticky": true,
+  "Tooltip": true,
+  "Transform": {
+    "posX": -18.672,
+    "posY": 1.983,
+    "posZ": 36.705,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+  },
+  "Value": 0
+}

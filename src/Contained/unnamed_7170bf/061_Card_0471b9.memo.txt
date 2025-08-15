@@ -1,0 +1,1 @@
+{"hp":1,"monstertype":["Beast"],"name":"Whippoorwill","remnant":false,"type":"Monster"}

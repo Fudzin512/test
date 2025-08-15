@@ -1,0 +1,1 @@
+{"investigator": "Norman Withers", "type": "starting", "guaranteed": true}

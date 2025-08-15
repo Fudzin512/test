@@ -1,0 +1,1 @@
+{"curio":true,"price":4,"type":"item"}

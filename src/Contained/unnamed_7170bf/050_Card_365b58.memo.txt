@@ -1,0 +1,1 @@
+{"elite":1,"hp":2,"monstertype":["Lodge","Human"],"name":"Simon Carter","remnant":false,"type":"Monster"}

@@ -1,0 +1,1 @@
+{"hp":3,"name":"Vengeful Pursuer","role":"Monster","type":"wanted"}

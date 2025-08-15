@@ -1,0 +1,1 @@
+{"investigator":"Tommy Muldoon","type":"starting"}
